@@ -1,0 +1,11 @@
+policy:
+  deterministic_required:
+    - stage transitions
+    - quality gates
+    - schema validation
+  nondeterministic_allowed:
+    - drafting
+    - rewriting
+    - explanation generation
+  evidence_required_for_llm_output: true
+  fail_closed_on_gate_failure: true
