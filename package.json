@@ -21,7 +21,11 @@
     "typecheck": "tsc",
     "clean": "rimraf build",
     "gh:deploy": "npm run build && gh-pages -d build",
-    "sync:chapters": "node scripts/sync-chapters.js"
+    "sync:chapters": "node scripts/sync-chapters.js",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:debug": "playwright test --debug",
+    "test:e2e:report": "playwright show-report"
   },
   "repository": {
     "type": "git",
@@ -45,6 +49,7 @@
     "@docusaurus/preset-classic": "^3.9.2",
     "@docusaurus/theme-classic": "^3.9.2",
     "@mdx-js/react": "^3.1.1",
+    "@playwright/test": "^1.52.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "gh-pages": "^6.3.0",
