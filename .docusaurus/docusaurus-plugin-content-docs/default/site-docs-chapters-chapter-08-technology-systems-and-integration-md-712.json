@@ -1,0 +1,24 @@
+{
+  "id": "chapters/chapter-08-technology-systems-and-integration",
+  "title": "Chapter 8: Technology Systems and Integration",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-08-technology-systems-and-integration.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-08-technology-systems-and-integration",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-08-technology-systems-and-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-08-technology-systems-and-integration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 7: Data and Analytics in Merchandising",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-07-data-and-analytics-in-merchandising"
+  },
+  "next": {
+    "title": "Chapter 9: Quality Engineering in Merchandising",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-09-quality-engineering-in-merchandising"
+  }
+}

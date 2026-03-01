@@ -1,0 +1,24 @@
+{
+  "id": "chapters/chapter-09-quality-engineering-in-merchandising",
+  "title": "Chapter 9: Quality Engineering in Merchandising",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-09-quality-engineering-in-merchandising.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-09-quality-engineering-in-merchandising",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-09-quality-engineering-in-merchandising",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-09-quality-engineering-in-merchandising.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 8: Technology Systems and Integration",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-08-technology-systems-and-integration"
+  },
+  "next": {
+    "title": "Chapter 10: Future Trends and Digital Transformation",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-10-future-trends-and-digital-transformation"
+  }
+}

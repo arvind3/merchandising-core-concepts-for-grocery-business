@@ -1,0 +1,20 @@
+{
+  "id": "chapters/chapter-01-introduction-to-grocery-merchandising",
+  "title": "Chapter 1: Introduction to Grocery Merchandising",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-01-introduction-to-grocery-merchandising.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-01-introduction-to-grocery-merchandising",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-01-introduction-to-grocery-merchandising",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-01-introduction-to-grocery-merchandising.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 2: Product Hierarchy and Categorization",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-02-product-hierarchy-and-categorization"
+  }
+}

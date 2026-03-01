@@ -1,0 +1,24 @@
+{
+  "id": "chapters/chapter-06-store-operations-and-execution",
+  "title": "Chapter 6: Store Operations and Execution",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-06-store-operations-and-execution.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-06-store-operations-and-execution",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-06-store-operations-and-execution.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5: Supplier Management and Procurement",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-05-supplier-management-and-procurement"
+  },
+  "next": {
+    "title": "Chapter 7: Data and Analytics in Merchandising",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-07-data-and-analytics-in-merchandising"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "29098025": [
+      986
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "009a88ef": [
+      368
+    ],
+    "04edb383": [
+      462
+    ],
+    "1df93b7f": [
+      869,
+      583
+    ],
+    "34886d85": [
+      277
+    ],
+    "39eb51b9": [
+      867
+    ],
+    "58704bf4": [
+      705
+    ],
+    "5e95c892": [
+      647
+    ],
+    "6e952969": [
+      738
+    ],
+    "6f33bb57": [
+      325
+    ],
+    "712e919b": [
+      911
+    ],
+    "9e76fe12": [
+      880
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "b6e385db": [
+      828
+    ],
+    "b9b89576": [
+      475
+    ],
+    "cf386627": [
+      944
+    ],
+    "e407f7b0": [
+      740
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      583,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.beea3819.js",
+          "hash": "14134fec5e6085e9",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/a94703ab.beea3819.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.03fc673c.js",
+          "hash": "97fed27323e72d33",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/a7bd4aaa.03fc673c.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.ad8573a0.js",
+          "hash": "8ccc57ab8811691d",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/a7456010.ad8573a0.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.bc8146f9.js",
+          "hash": "f7b341d1c5caf42c",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/237.bc8146f9.js"
+        }
+      ]
+    },
+    "277": {
+      "js": [
+        {
+          "file": "assets/js/34886d85.1ad97f07.js",
+          "hash": "6b5014123274bd11",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/34886d85.1ad97f07.js"
+        }
+      ]
+    },
+    "325": {
+      "js": [
+        {
+          "file": "assets/js/6f33bb57.e47e038f.js",
+          "hash": "435531af1d3366da",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/6f33bb57.e47e038f.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.4a9ec3ab.js",
+          "hash": "8603de9f380afa8a",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/runtime~main.4a9ec3ab.js"
+        }
+      ]
+    },
+    "368": {
+      "js": [
+        {
+          "file": "assets/js/009a88ef.a12b93eb.js",
+          "hash": "22d729e9ff8849dc",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/009a88ef.a12b93eb.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.413317fa.js",
+          "hash": "a5bfbe6d372bd541",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/17896441.413317fa.js"
+        }
+      ]
+    },
+    "462": {
+      "js": [
+        {
+          "file": "assets/js/04edb383.64f16470.js",
+          "hash": "65c172ae25800d45",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/04edb383.64f16470.js"
+        }
+      ]
+    },
+    "475": {
+      "js": [
+        {
+          "file": "assets/js/b9b89576.28221165.js",
+          "hash": "a8f7d75c829d47b0",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/b9b89576.28221165.js"
+        }
+      ]
+    },
+    "583": {
+      "js": [
+        {
+          "file": "assets/js/1df93b7f.374af485.js",
+          "hash": "e5b11f8b46e56781",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/1df93b7f.374af485.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.9b8291f8.js",
+          "hash": "029f1f7349403728",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/5e95c892.9b8291f8.js"
+        }
+      ]
+    },
+    "705": {
+      "js": [
+        {
+          "file": "assets/js/58704bf4.de6a8cd3.js",
+          "hash": "04e6fc2fdbd404e6",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/58704bf4.de6a8cd3.js"
+        }
+      ]
+    },
+    "738": {
+      "js": [
+        {
+          "file": "assets/js/6e952969.c4c13d9c.js",
+          "hash": "1746b51688391cd2",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/6e952969.c4c13d9c.js"
+        }
+      ]
+    },
+    "740": {
+      "js": [
+        {
+          "file": "assets/js/e407f7b0.226506ea.js",
+          "hash": "10d0311f123ba8d2",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/e407f7b0.226506ea.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.74a3e25e.js",
+          "hash": "7068a44955341ef7",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/aba21aa0.74a3e25e.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.0bddf132.js",
+          "hash": "5fe91ba196fc52a7",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/main.0bddf132.js"
+        }
+      ]
+    },
+    "828": {
+      "js": [
+        {
+          "file": "assets/js/b6e385db.ac6775a1.js",
+          "hash": "02c031747fe70995",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/b6e385db.ac6775a1.js"
+        }
+      ]
+    },
+    "867": {
+      "js": [
+        {
+          "file": "assets/js/39eb51b9.aa290e9a.js",
+          "hash": "99a48bc458cd58cd",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/39eb51b9.aa290e9a.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.07cd01ed.css",
+          "hash": "795fd75223163959",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/css/styles.07cd01ed.css"
+        }
+      ]
+    },
+    "880": {
+      "js": [
+        {
+          "file": "assets/js/9e76fe12.591bc725.js",
+          "hash": "bd79af10ab88bfe3",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/9e76fe12.591bc725.js"
+        }
+      ]
+    },
+    "911": {
+      "js": [
+        {
+          "file": "assets/js/712e919b.328f8a37.js",
+          "hash": "5446728b925b0092",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/712e919b.328f8a37.js"
+        }
+      ]
+    },
+    "944": {
+      "js": [
+        {
+          "file": "assets/js/cf386627.743ccc61.js",
+          "hash": "9022143dfe35a2b0",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/cf386627.743ccc61.js"
+        }
+      ]
+    },
+    "986": {
+      "js": [
+        {
+          "file": "assets/js/29098025.f87d4d3a.js",
+          "hash": "a4a86ab457133dce",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/29098025.f87d4d3a.js"
+        }
+      ]
+    }
+  }
+}

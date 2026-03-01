@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmerchandising_core_concepts_book=self.webpackChunkmerchandising_core_concepts_book||[]).push([[742],{7093(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

@@ -1,0 +1,24 @@
+{
+  "id": "chapters/chapter-05-supplier-management-and-procurement",
+  "title": "Chapter 5: Supplier Management and Procurement",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-05-supplier-management-and-procurement.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-05-supplier-management-and-procurement",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-05-supplier-management-and-procurement",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-05-supplier-management-and-procurement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: Inventory Management and Replenishment",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-04-inventory-management-and-replenishment"
+  },
+  "next": {
+    "title": "Chapter 6: Store Operations and Execution",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution"
+  }
+}

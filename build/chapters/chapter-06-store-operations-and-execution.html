@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-chapters/chapter-06-store-operations-and-execution" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Chapter 6: Store Operations and Execution | Merchandising Core Concepts for the Grocery Business</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Chapter 6: Store Operations and Execution | Merchandising Core Concepts for the Grocery Business"><meta data-rh="true" name="description" content="Concept Explanation"><meta data-rh="true" property="og:description" content="Concept Explanation"><link data-rh="true" rel="icon" href="/merchandising-core-concepts-for-grocery-business/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution"><link data-rh="true" rel="alternate" href="https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution" hreflang="en"><link data-rh="true" rel="alternate" href="https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Chapter 6: Store Operations and Execution","item":"https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution"}]}</script><link rel="stylesheet" href="/merchandising-core-concepts-for-grocery-business/assets/css/styles.07cd01ed.css">
+<script src="/merchandising-core-concepts-for-grocery-business/assets/js/runtime~main.4a9ec3ab.js" defer="defer"></script>
+<script src="/merchandising-core-concepts-for-grocery-business/assets/js/main.0bddf132.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/merchandising-core-concepts-for-grocery-business/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/merchandising-core-concepts-for-grocery-business/"><div class="navbar__logo"><img src="/merchandising-core-concepts-for-grocery-business/img/logo.svg" alt="Merchandising Book Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/merchandising-core-concepts-for-grocery-business/img/logo.svg" alt="Merchandising Book Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Merchandising Core Concepts</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-01-introduction-to-grocery-merchandising">Chapters</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/arvind3/merchandising-core-concepts-for-grocery-business" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-01-introduction-to-grocery-merchandising"><span title="📚 Chapters" class="categoryLinkLabel_W154">📚 Chapters</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-01-introduction-to-grocery-merchandising"><span title="Chapter 1: Introduction to Grocery Merchandising" class="linkLabel_WmDU">Chapter 1: Introduction to Grocery Merchandising</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-02-product-hierarchy-and-categorization"><span title="Chapter 2: Product Hierarchy and Categorization" class="linkLabel_WmDU">Chapter 2: Product Hierarchy and Categorization</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-03-pricing-strategy-and-promotion-management"><span title="Chapter 3: Pricing Strategy and Promotion Management" class="linkLabel_WmDU">Chapter 3: Pricing Strategy and Promotion Management</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-04-inventory-management-and-replenishment"><span title="Chapter 4: Inventory Management and Replenishment" class="linkLabel_WmDU">Chapter 4: Inventory Management and Replenishment</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-05-supplier-management-and-procurement"><span title="Chapter 5: Supplier Management and Procurement" class="linkLabel_WmDU">Chapter 5: Supplier Management and Procurement</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution"><span title="Chapter 6: Store Operations and Execution" class="linkLabel_WmDU">Chapter 6: Store Operations and Execution</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-07-data-and-analytics-in-merchandising"><span title="Chapter 7: Data and Analytics in Merchandising" class="linkLabel_WmDU">Chapter 7: Data and Analytics in Merchandising</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-08-technology-systems-and-integration"><span title="Chapter 8: Technology Systems and Integration" class="linkLabel_WmDU">Chapter 8: Technology Systems and Integration</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-09-quality-engineering-in-merchandising"><span title="Chapter 9: Quality Engineering in Merchandising" class="linkLabel_WmDU">Chapter 9: Quality Engineering in Merchandising</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-10-future-trends-and-digital-transformation"><span title="Chapter 10: Future Trends and Digital Transformation" class="linkLabel_WmDU">Chapter 10: Future Trends and Digital Transformation</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/merchandising-core-concepts-for-grocery-business/resources/glossary"><span title="📖 Resources" class="categoryLinkLabel_W154">📖 Resources</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/merchandising-core-concepts-for-grocery-business/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">📚 Chapters</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Chapter 6: Store Operations and Execution</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Chapter 6: Store Operations and Execution</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="concept-explanation">Concept Explanation<a href="#concept-explanation" class="hash-link" aria-label="Direct link to Concept Explanation" title="Direct link to Concept Explanation" translate="no">​</a></h2>
+<p><strong>Store Operations</strong> encompasses all activities required to run a retail store, including merchandising execution, customer service, inventory management, and daily operational tasks.</p>
+<p><strong>Execution</strong> refers to the implementation of merchandising plans at the store level, ensuring that corporate strategies are correctly translated to the sales floor.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-store-operations-concepts">Key Store Operations Concepts<a href="#key-store-operations-concepts" class="hash-link" aria-label="Direct link to Key Store Operations Concepts" title="Direct link to Key Store Operations Concepts" translate="no">​</a></h3>
+<p><strong>Planogram Compliance</strong></p>
+<ul>
+<li class="">Adherence to planned product placement and shelf layout</li>
+<li class="">Measured through audits and photo verification</li>
+<li class="">Directly impacts sales and vendor relationships</li>
+</ul>
+<p><strong>Front-to-Back Flow</strong></p>
+<ul>
+<li class="">Logical product movement from receiving to sales floor</li>
+<li class="">Minimizes handling and maximizes efficiency</li>
+<li class="">Critical for fresh products with limited shelf life</li>
+</ul>
+<p><strong>Store Labor Standards</strong></p>
+<ul>
+<li class="">Task time estimates for standard operations</li>
+<li class="">Used for staffing and scheduling</li>
+<li class="">Includes: receiving, stocking, facing, cleaning, customer service</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="daily-store-operations-cycle">Daily Store Operations Cycle<a href="#daily-store-operations-cycle" class="hash-link" aria-label="Direct link to Daily Store Operations Cycle" title="Direct link to Daily Store Operations Cycle" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Opening Procedures �&#x27; Receiving �&#x27; Stocking �&#x27; Facing �&#x27; </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Customer Service �&#x27; Cleaning �&#x27; Closing Procedures</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-use-case">Business Use Case<a href="#business-use-case" class="hash-link" aria-label="Direct link to Business Use Case" title="Direct link to Business Use Case" translate="no">​</a></h2>
+<p><strong>Scenario: New Store Opening at Metro Grocery</strong></p>
+<p>Metro Grocery is opening a new 45,000 sq ft store with a grand opening in 4 weeks.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="week-1-staffing-and-training">Week 1: Staffing and Training<a href="#week-1-staffing-and-training" class="hash-link" aria-label="Direct link to Week 1: Staffing and Training" title="Direct link to Week 1: Staffing and Training" translate="no">​</a></h3>
+<p><strong>Store Manager Hired:</strong></p>
+<ul>
+<li class="">1 Store Manager</li>
+<li class="">3 Assistant Managers (Front End, Grocery, Fresh)</li>
+<li class="">15 Department Managers</li>
+<li class="">75 Team Members (full-time and part-time)</li>
+</ul>
+<p><strong>Training Program:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Day 1-2: Company orientation, policies, systems</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Day 3-4: Department-specific training</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Day 5: Customer service standards</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Day 6-7: Merchandising execution training</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Day 8-10: System training (POS, inventory, task management)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Day 11-12: Mock operations and dry runs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Day 13: Final assessment and certification</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="week-2-initial-stocking">Week 2: Initial Stocking<a href="#week-2-initial-stocking" class="hash-link" aria-label="Direct link to Week 2: Initial Stocking" title="Direct link to Week 2: Initial Stocking" translate="no">​</a></h3>
+<p><strong>Receiving Process:</strong></p>
+<ul>
+<li class="">First wave of inventory arrives from DC</li>
+<li class="">20 delivery trucks scheduled over 3 days</li>
+<li class="">Each department team verifies and stocks their products</li>
+</ul>
+<p><strong>Quality Checks:</strong></p>
+<ul>
+<li class="">Fresh products inspected for quality and date codes</li>
+<li class="">Temperature verification for cold chain items</li>
+<li class="">Damaged products documented and returned</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="week-3-planogram-implementation">Week 3: Planogram Implementation<a href="#week-3-planogram-implementation" class="hash-link" aria-label="Direct link to Week 3: Planogram Implementation" title="Direct link to Week 3: Planogram Implementation" translate="no">​</a></h3>
+<p><strong>Reset Teams Deployed:</strong></p>
+<ul>
+<li class="">5 reset teams (4 members each)</li>
+<li class="">Each team assigned to specific departments</li>
+<li class="">Planograms loaded on tablets for reference</li>
+</ul>
+<p><strong>Compliance Verification:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Department: Dry Grocery</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Total SKUs: 8,500</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Planogram Bays: 450</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Compliance Target: 100%</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Verification Method: Photo audit + manager walk-through</span><br></span></code></pre></div></div>
+<p><strong>Issues Found and Resolved:</strong></p>
+<ul>
+<li class="">12 products missing from shipment �&#x27; DC expedite requested</li>
+<li class="">5 shelf tags incorrect �&#x27; reprinted and replaced</li>
+<li class="">3 planogram discrepancies �&#x27; corporate notified, corrections made</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="week-4-final-preparation">Week 4: Final Preparation<a href="#week-4-final-preparation" class="hash-link" aria-label="Direct link to Week 4: Final Preparation" title="Direct link to Week 4: Final Preparation" translate="no">​</a></h3>
+<p><strong>Soft Opening (3 days before grand opening):</strong></p>
+<ul>
+<li class="">Limited hours (10 AM - 6 PM)</li>
+<li class="">Friends and family shopping</li>
+<li class="">Staff practices real operations</li>
+<li class="">Issues logged and resolved daily</li>
+</ul>
+<p><strong>Grand Opening Readiness Checklist:</strong></p>
+<table><thead><tr><th>Item</th><th>Status</th><th>Owner</th></tr></thead><tbody><tr><td>Staffing complete</td><td>�...</td><td>Store Manager</td></tr><tr><td>Inventory stocked</td><td>�...</td><td>Dept Managers</td></tr><tr><td>Planogram compliance</td><td>98%</td><td>Reset Lead</td></tr><tr><td>POS systems tested</td><td>�...</td><td>IT Support</td></tr><tr><td>Cleaning complete</td><td>�...</td><td>Maintenance</td></tr><tr><td>Signage installed</td><td>�...</td><td>Marketing</td></tr><tr><td>Safety inspection passed</td><td>�...</td><td>Safety Manager</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="grand-opening-results">Grand Opening Results<a href="#grand-opening-results" class="hash-link" aria-label="Direct link to Grand Opening Results" title="Direct link to Grand Opening Results" translate="no">​</a></h3>
+<p><strong>Day 1 Metrics:</strong></p>
+<ul>
+<li class="">Customer count: 2,847</li>
+<li class="">Transactions: 2,103</li>
+<li class="">Average basket: $67.42</li>
+<li class="">Total sales: $141,784</li>
+<li class="">Customer satisfaction: 4.6/5.0</li>
+</ul>
+<p><strong>Issues Encountered:</strong></p>
+<ul>
+<li class="">Front end lines backed up during peak (11 AM - 2 PM)</li>
+<li class="">Popular items sold out by 3 PM</li>
+<li class="">One POS terminal had connectivity issues</li>
+</ul>
+<p><strong>Corrective Actions:</strong></p>
+<ul>
+<li class="">Added 2 additional checkout lanes for Day 2</li>
+<li class="">Emergency DC delivery scheduled for overnight</li>
+<li class="">IT replaced POS terminal network card</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="users-involved">Users Involved<a href="#users-involved" class="hash-link" aria-label="Direct link to Users Involved" title="Direct link to Users Involved" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="store-leadership">Store Leadership<a href="#store-leadership" class="hash-link" aria-label="Direct link to Store Leadership" title="Direct link to Store Leadership" translate="no">​</a></h3>
+<p><strong>Store Manager</strong></p>
+<ul>
+<li class="">Overall store performance and P&amp;L</li>
+<li class="">Staff management and development</li>
+<li class="">Customer satisfaction</li>
+<li class="">Compliance with corporate standards</li>
+</ul>
+<p><strong>Assistant Store Manager</strong></p>
+<ul>
+<li class="">Supports Store Manager</li>
+<li class="">Often oversees specific areas (front end, operations)</li>
+<li class="">Acts as Manager on Duty (MOD)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="department-management">Department Management<a href="#department-management" class="hash-link" aria-label="Direct link to Department Management" title="Direct link to Department Management" translate="no">​</a></h3>
+<p><strong>Department Manager (Grocery)</strong></p>
+<ul>
+<li class="">Manages grocery department</li>
+<li class="">Ensures planogram compliance</li>
+<li class="">Oversees stocking and facing</li>
+<li class="">Manages department inventory</li>
+</ul>
+<p><strong>Department Manager (Fresh/Produce)</strong></p>
+<ul>
+<li class="">Manages fresh departments</li>
+<li class="">Ensures product quality and rotation</li>
+<li class="">Oversees preparation and merchandising</li>
+<li class="">Manages shrink and waste</li>
+</ul>
+<p><strong>Department Manager (Front End)</strong></p>
+<ul>
+<li class="">Manages checkout operations</li>
+<li class="">Oversees customer service desk</li>
+<li class="">Manages cashier scheduling</li>
+<li class="">Handles customer issues</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="store-team">Store Team<a href="#store-team" class="hash-link" aria-label="Direct link to Store Team" title="Direct link to Store Team" translate="no">​</a></h3>
+<p><strong>Cashier</strong></p>
+<ul>
+<li class="">Processes customer transactions</li>
+<li class="">Provides customer service</li>
+<li class="">Maintains checkout area cleanliness</li>
+<li class="">Handles returns and exchanges</li>
+</ul>
+<p><strong>Stock Clerk</strong></p>
+<ul>
+<li class="">Unloads delivery trucks</li>
+<li class="">Stocks shelves from backroom</li>
+<li class="">Faces products (pulls forward)</li>
+<li class="">Maintains backroom organization</li>
+</ul>
+<p><strong>Customer Service Associate</strong></p>
+<ul>
+<li class="">Handles customer inquiries</li>
+<li class="">Processes returns and exchanges</li>
+<li class="">Manages loyalty program signups</li>
+<li class="">Resolves customer issues</li>
+</ul>
+<p><strong>Maintenance/Custodian</strong></p>
+<ul>
+<li class="">Maintains store cleanliness</li>
+<li class="">Handles spills and safety issues</li>
+<li class="">Performs basic repairs</li>
+<li class="">Manages trash and recycling</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="corporate-support">Corporate Support<a href="#corporate-support" class="hash-link" aria-label="Direct link to Corporate Support" title="Direct link to Corporate Support" translate="no">​</a></h3>
+<p><strong>District Manager</strong></p>
+<ul>
+<li class="">Oversees multiple stores (8-12)</li>
+<li class="">Coaches Store Managers</li>
+<li class="">Ensures regional consistency</li>
+<li class="">Escalates issues to corporate</li>
+</ul>
+<p><strong>Retail Operations Manager</strong></p>
+<ul>
+<li class="">Develops store operating procedures</li>
+<li class="">Creates training materials</li>
+<li class="">Leads continuous improvement</li>
+<li class="">Supports new store openings</li>
+</ul>
+<p><strong>IT Support Specialist</strong></p>
+<ul>
+<li class="">Maintains store technology</li>
+<li class="">Troubleshoots POS and systems</li>
+<li class="">Manages network connectivity</li>
+<li class="">Supports hardware repairs</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="quality-engineering-roles">Quality Engineering Roles<a href="#quality-engineering-roles" class="hash-link" aria-label="Direct link to Quality Engineering Roles" title="Direct link to Quality Engineering Roles" translate="no">​</a></h3>
+<p><strong>Field Quality Auditor</strong></p>
+<ul>
+<li class="">Conducts store quality audits</li>
+<li class="">Validates process compliance</li>
+<li class="">Reports findings to corporate</li>
+<li class="">Follows up on corrective actions</li>
+</ul>
+<p><strong>Systems Quality Engineer</strong></p>
+<ul>
+<li class="">Tests store system deployments</li>
+<li class="">Validates POS functionality</li>
+<li class="">Ensures system integration</li>
+<li class="">Supports issue resolution</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tools--technologies-used">Tools &amp; Technologies Used<a href="#tools--technologies-used" class="hash-link" aria-label="Direct link to Tools &amp; Technologies Used" title="Direct link to Tools &amp; Technologies Used" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="store-operations-platforms">Store Operations Platforms<a href="#store-operations-platforms" class="hash-link" aria-label="Direct link to Store Operations Platforms" title="Direct link to Store Operations Platforms" translate="no">​</a></h3>
+<p><strong>Task Management Systems:</strong></p>
+<ul>
+<li class=""><strong>TaskRabbit for Retail</strong>: Task assignment and tracking</li>
+<li class=""><strong>Zenput</strong>: Operations execution platform</li>
+<li class=""><strong>YOOBIC</strong>: Store task management and communication</li>
+</ul>
+<p><strong>Planogram Tools:</strong></p>
+<ul>
+<li class=""><strong>JDA Space Planning</strong>: Planogram creation and distribution</li>
+<li class=""><strong>Nielsen Spaceman</strong>: Shelf management</li>
+<li class=""><strong>Apollo</strong>: Cloud-based planograms</li>
+</ul>
+<p><strong>Mobile Execution Apps:</strong></p>
+<ul>
+<li class=""><strong>Retail Execution Management (REM)</strong>: Mobile task completion</li>
+<li class=""><strong>Store Survey Apps</strong>: Audit and compliance verification</li>
+<li class=""><strong>Photo Verification Apps</strong>: Planogram compliance photos</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="point-of-sale-systems">Point of Sale Systems<a href="#point-of-sale-systems" class="hash-link" aria-label="Direct link to Point of Sale Systems" title="Direct link to Point of Sale Systems" translate="no">​</a></h3>
+<p><strong>POS Hardware:</strong></p>
+<ul>
+<li class="">NCR Silverline terminals</li>
+<li class="">Toshiba Global Commerce solutions</li>
+<li class="">Self-checkout kiosks</li>
+</ul>
+<p><strong>POS Software:</strong></p>
+<ul>
+<li class="">Transaction processing</li>
+<li class="">Loyalty program integration</li>
+<li class="">Coupon validation</li>
+<li class="">Payment processing</li>
+</ul>
+<p><strong>Payment Processing:</strong></p>
+<ul>
+<li class="">Credit/debit card processing</li>
+<li class="">Mobile payments (Apple Pay, Google Pay)</li>
+<li class="">EBT/SNAP processing</li>
+<li class="">Gift card processing</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inventory-management">Inventory Management<a href="#inventory-management" class="hash-link" aria-label="Direct link to Inventory Management" title="Direct link to Inventory Management" translate="no">​</a></h3>
+<p><strong>Handheld Devices:</strong></p>
+<ul>
+<li class="">Zebra mobile computers</li>
+<li class="">Honeywell scanners</li>
+<li class="">Inventory counting apps</li>
+</ul>
+<p><strong>Inventory Systems:</strong></p>
+<ul>
+<li class="">Real-time inventory tracking</li>
+<li class="">Cycle counting support</li>
+<li class="">Receiving and transfer processing</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="communication-tools">Communication Tools<a href="#communication-tools" class="hash-link" aria-label="Direct link to Communication Tools" title="Direct link to Communication Tools" translate="no">​</a></h3>
+<p><strong>Store Communication:</strong></p>
+<ul>
+<li class=""><strong>Microsoft Teams</strong>: Staff communication</li>
+<li class=""><strong>Slack</strong>: Team messaging</li>
+<li class=""><strong>Workplace from Meta</strong>: Enterprise social network</li>
+</ul>
+<p><strong>Task Assignment:</strong></p>
+<ul>
+<li class=""><strong>Asana</strong>: Project and task management</li>
+<li class=""><strong>Trello</strong>: Visual task boards</li>
+<li class=""><strong>Monday.com</strong>: Work operating system</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="analytics-and-reporting">Analytics and Reporting<a href="#analytics-and-reporting" class="hash-link" aria-label="Direct link to Analytics and Reporting" title="Direct link to Analytics and Reporting" translate="no">​</a></h3>
+<p><strong>Store Performance Dashboards:</strong></p>
+<ul>
+<li class="">Sales tracking (hourly, daily, weekly)</li>
+<li class="">Labor productivity metrics</li>
+<li class="">Customer satisfaction scores</li>
+<li class="">Shrink and waste tracking</li>
+</ul>
+<p><strong>Compliance Reporting:</strong></p>
+<ul>
+<li class="">Planogram compliance scores</li>
+<li class="">Audit results</li>
+<li class="">Corrective action tracking</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="quality-engineering-tools">Quality Engineering Tools<a href="#quality-engineering-tools" class="hash-link" aria-label="Direct link to Quality Engineering Tools" title="Direct link to Quality Engineering Tools" translate="no">​</a></h3>
+<p><strong>POS Testing:</strong></p>
+<ul>
+<li class="">Transaction flow testing</li>
+<li class="">Payment method validation</li>
+<li class="">Loyalty integration testing</li>
+<li class="">Return/exchange scenarios</li>
+</ul>
+<p><strong>Mobile App Testing:</strong></p>
+<ul>
+<li class="">Task completion workflows</li>
+<li class="">Photo upload validation</li>
+<li class="">Offline mode testing</li>
+<li class="">Sync verification</li>
+</ul>
+<p><strong>Integration Testing:</strong></p>
+<ul>
+<li class="">POS to inventory sync</li>
+<li class="">Task management to HR systems</li>
+<li class="">Audit data to analytics platforms</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-metrics">Key Metrics<a href="#key-metrics" class="hash-link" aria-label="Direct link to Key Metrics" title="Direct link to Key Metrics" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="store-performance-metrics">Store Performance Metrics<a href="#store-performance-metrics" class="hash-link" aria-label="Direct link to Store Performance Metrics" title="Direct link to Store Performance Metrics" translate="no">​</a></h3>
+<table><thead><tr><th>Metric</th><th>Formula</th><th>Target</th></tr></thead><tbody><tr><td>Sales per Square Foot</td><td>Total Sales / Store Sq Ft</td><td>$300-500/sq ft</td></tr><tr><td>Transactions per Day</td><td>Total Transactions / Days</td><td>Varies by store</td></tr><tr><td>Average Basket Size</td><td>Total Sales / Transactions</td><td>$50-80</td></tr><tr><td>Conversion Rate</td><td>Transactions / Customer Count</td><td>70-80%</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="operational-excellence-metrics">Operational Excellence Metrics<a href="#operational-excellence-metrics" class="hash-link" aria-label="Direct link to Operational Excellence Metrics" title="Direct link to Operational Excellence Metrics" translate="no">​</a></h3>
+<table><thead><tr><th>Metric</th><th>Description</th><th>Target</th></tr></thead><tbody><tr><td>Planogram Compliance</td><td>% bays matching plan</td><td>95%+</td></tr><tr><td>On-Shelf Availability</td><td>In-stock % for top SKUs</td><td>98%+</td></tr><tr><td>Labor Productivity</td><td>Sales / Labor Hour</td><td>$150-200/hr</td></tr><tr><td>Shrink Percentage</td><td>Shrink $ / Sales $</td><td>&amp;lt;1.5%</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="customer-experience-metrics">Customer Experience Metrics<a href="#customer-experience-metrics" class="hash-link" aria-label="Direct link to Customer Experience Metrics" title="Direct link to Customer Experience Metrics" translate="no">​</a></h3>
+<table><thead><tr><th>Metric</th><th>Measurement</th><th>Target</th></tr></thead><tbody><tr><td>Customer Satisfaction</td><td>Survey scores</td><td>4.5/5.0+</td></tr><tr><td>Net Promoter Score</td><td>% Promoters - % Detractors</td><td>50+</td></tr><tr><td>Checkout Wait Time</td><td>Average queue time</td><td>&amp;lt;5 minutes</td></tr><tr><td>Issue Resolution Time</td><td>Time to resolve complaints</td><td>&amp;lt;24 hours</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="chapter-summary">Chapter Summary<a href="#chapter-summary" class="hash-link" aria-label="Direct link to Chapter Summary" title="Direct link to Chapter Summary" translate="no">​</a></h2>
+<p>Store operations and execution are where merchandising strategy meets reality. Effective store operations require clear processes, well-trained staff, and reliable systems. For IT and Quality Engineering professionals, store systems present unique challenges:</p>
+<ul>
+<li class="">Distributed environment with varying connectivity</li>
+<li class="">High-volume transaction processing</li>
+<li class="">Multiple hardware integrations (POS, scanners, scales)</li>
+<li class="">Real-time inventory accuracy requirements</li>
+<li class="">Customer-facing systems requiring high reliability</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="chapter-checklist">Chapter Checklist<a href="#chapter-checklist" class="hash-link" aria-label="Direct link to Chapter Checklist" title="Direct link to Chapter Checklist" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Can you describe the daily store operations cycle?</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Do you understand planogram compliance importance?</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Can you identify key store roles and responsibilities?</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Are you familiar with store operations technology?</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Do you understand store performance metrics?</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Can you describe testing considerations for store systems?</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="exercise">Exercise<a href="#exercise" class="hash-link" aria-label="Direct link to Exercise" title="Direct link to Exercise" translate="no">​</a></h2>
+<p><strong>New Store Opening Test Plan:</strong></p>
+<p>Your client is opening 10 new stores with new POS and inventory systems. Design a comprehensive test plan covering:</p>
+<ol>
+<li class="">POS functionality (all payment types, returns, exchanges)</li>
+<li class="">Inventory receiving and stocking workflows</li>
+<li class="">Planogram compliance verification</li>
+<li class="">System integration (POS �&quot; Inventory �&quot; HQ)</li>
+<li class="">Offline mode (network outage scenarios)</li>
+<li class="">Performance under load (grand opening scenario)</li>
+<li class="">User acceptance testing with store staff</li>
+</ol>
+<p><strong>Deliverable:</strong> Create a test plan with phases, test cases, success criteria, and rollout approach.</p>
+<hr>
+<p><em>End of Chapter 6</em></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-06-store-operations-and-execution.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-05-supplier-management-and-procurement"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Chapter 5: Supplier Management and Procurement</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/merchandising-core-concepts-for-grocery-business/chapters/chapter-07-data-and-analytics-in-merchandising"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Chapter 7: Data and Analytics in Merchandising</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#concept-explanation" class="table-of-contents__link toc-highlight">Concept Explanation</a><ul><li><a href="#key-store-operations-concepts" class="table-of-contents__link toc-highlight">Key Store Operations Concepts</a></li><li><a href="#daily-store-operations-cycle" class="table-of-contents__link toc-highlight">Daily Store Operations Cycle</a></li></ul></li><li><a href="#business-use-case" class="table-of-contents__link toc-highlight">Business Use Case</a><ul><li><a href="#week-1-staffing-and-training" class="table-of-contents__link toc-highlight">Week 1: Staffing and Training</a></li><li><a href="#week-2-initial-stocking" class="table-of-contents__link toc-highlight">Week 2: Initial Stocking</a></li><li><a href="#week-3-planogram-implementation" class="table-of-contents__link toc-highlight">Week 3: Planogram Implementation</a></li><li><a href="#week-4-final-preparation" class="table-of-contents__link toc-highlight">Week 4: Final Preparation</a></li><li><a href="#grand-opening-results" class="table-of-contents__link toc-highlight">Grand Opening Results</a></li></ul></li><li><a href="#users-involved" class="table-of-contents__link toc-highlight">Users Involved</a><ul><li><a href="#store-leadership" class="table-of-contents__link toc-highlight">Store Leadership</a></li><li><a href="#department-management" class="table-of-contents__link toc-highlight">Department Management</a></li><li><a href="#store-team" class="table-of-contents__link toc-highlight">Store Team</a></li><li><a href="#corporate-support" class="table-of-contents__link toc-highlight">Corporate Support</a></li><li><a href="#quality-engineering-roles" class="table-of-contents__link toc-highlight">Quality Engineering Roles</a></li></ul></li><li><a href="#tools--technologies-used" class="table-of-contents__link toc-highlight">Tools &amp; Technologies Used</a><ul><li><a href="#store-operations-platforms" class="table-of-contents__link toc-highlight">Store Operations Platforms</a></li><li><a href="#point-of-sale-systems" class="table-of-contents__link toc-highlight">Point of Sale Systems</a></li><li><a href="#inventory-management" class="table-of-contents__link toc-highlight">Inventory Management</a></li><li><a href="#communication-tools" class="table-of-contents__link toc-highlight">Communication Tools</a></li><li><a href="#analytics-and-reporting" class="table-of-contents__link toc-highlight">Analytics and Reporting</a></li><li><a href="#quality-engineering-tools" class="table-of-contents__link toc-highlight">Quality Engineering Tools</a></li></ul></li><li><a href="#key-metrics" class="table-of-contents__link toc-highlight">Key Metrics</a><ul><li><a href="#store-performance-metrics" class="table-of-contents__link toc-highlight">Store Performance Metrics</a></li><li><a href="#operational-excellence-metrics" class="table-of-contents__link toc-highlight">Operational Excellence Metrics</a></li><li><a href="#customer-experience-metrics" class="table-of-contents__link toc-highlight">Customer Experience Metrics</a></li></ul></li><li><a href="#chapter-summary" class="table-of-contents__link toc-highlight">Chapter Summary</a></li><li><a href="#chapter-checklist" class="table-of-contents__link toc-highlight">Chapter Checklist</a></li><li><a href="#exercise" class="table-of-contents__link toc-highlight">Exercise</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/merchandising-core-concepts-for-grocery-business/">Chapters</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/arvind3/merchandising-core-concepts-for-grocery-business" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/arvind3/factory" target="_blank" rel="noopener noreferrer" class="footer__link-item">Factory Framework<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Arvind Bhardwaj. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

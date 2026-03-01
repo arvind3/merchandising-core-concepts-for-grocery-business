@@ -18,7 +18,7 @@
 
 **Reorder Point (ROP)**
 - Inventory level that triggers a new order
-- Formula: ROP = (Average Daily Demand Ã— Lead Time) + Safety Stock
+- Formula: ROP = (Average Daily Demand Ã-- Lead Time) + Safety Stock
 
 **Economic Order Quantity (EOQ)**
 - Optimal order quantity that minimizes total inventory costs
@@ -70,8 +70,8 @@ Demand Std Deviation: 12 units
 Lead Time: 1 day
 Z-score (98% service): 2.05
 
-Safety Stock = 2.05 Ã— 12 Ã— âˆš1 = 25 units
-Reorder Point = (50 Ã— 1) + 25 = 75 units
+Safety Stock = 2.05 Ã-- 12 Ã-- âˆš1 = 25 units
+Reorder Point = (50 Ã-- 1) + 25 = 75 units
 ```
 
 **Week 9-12: Pilot Implementation**
@@ -264,7 +264,7 @@ Reorder Point = (50 Ã— 1) + 25 = 75 units
 | Inventory Turns | COGS / Average Inventory | 12-24x (grocery) |
 | Days of Supply | Inventory / Daily COGS | 15-30 days |
 | Stock-to-Sales Ratio | Inventory / Sales | 1.0-1.5 |
-| Shrink Percentage | Shrink $ / Sales $ | <2% |
+| Shrink Percentage | Shrink $ / Sales $ | \&lt;2% |
 
 ### Service Level Metrics
 
@@ -272,7 +272,7 @@ Reorder Point = (50 Ã— 1) + 25 = 75 units
 |--------|---------|--------|
 | Fill Rate | Units Filled / Units Ordered | 95%+ |
 | On-Time Delivery | On-Time Deliveries / Total Deliveries | 98%+ |
-| Out-of-Stock Rate | OOS SKUs / Total SKUs | <3% |
+| Out-of-Stock Rate | OOS SKUs / Total SKUs | \&lt;3% |
 | Perfect Order Rate | Perfect Orders / Total Orders | 95%+ |
 
 ### Replenishment Metrics
@@ -311,7 +311,7 @@ Your client is implementing a new automated replenishment system. Design test sc
 1. Normal replenishment (demand within forecast)
 2. Demand spike (promotion, weather event)
 3. Supply disruption (supplier delay, transportation issue)
-4. System integration (POS â†’ Inventory â†’ WMS â†’ Supplier)
+4. System integration (POS â†' Inventory â†' WMS â†' Supplier)
 5. Edge cases (new product, discontinued item, negative inventory prevention)
 
 **Deliverable:** Create a test scenario document with expected system behavior for each case.

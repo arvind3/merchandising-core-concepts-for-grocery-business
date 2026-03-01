@@ -13,12 +13,12 @@ At its core, merchandising answers three fundamental questions:
 
 The merchandising lifecycle is a continuous cycle that includes:
 
-1. **Planning** â€“ Defining product assortment, pricing strategies, and promotional calendars
-2. **Sourcing** â€“ Working with suppliers to procure products
-3. **Distribution** â€“ Moving products from suppliers to distribution centers to stores
-4. **Execution** â€“ Placing products on shelves according to planograms
-5. **Monitoring** â€“ Tracking sales, inventory levels, and customer response
-6. **Optimization** â€“ Adjusting strategies based on performance data
+1. **Planning** â€" Defining product assortment, pricing strategies, and promotional calendars
+2. **Sourcing** â€" Working with suppliers to procure products
+3. **Distribution** â€" Moving products from suppliers to distribution centers to stores
+4. **Execution** â€" Placing products on shelves according to planograms
+5. **Monitoring** â€" Tracking sales, inventory levels, and customer response
+6. **Optimization** â€" Adjusting strategies based on performance data
 
 ### Key Stakeholders
 

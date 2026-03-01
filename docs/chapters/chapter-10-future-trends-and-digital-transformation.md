@@ -47,10 +47,10 @@ FutureMart, a forward-thinking grocery chain, embarks on a comprehensive digital
 
 **Cloud Migration:**
 ```
-Legacy Systems â†’ Cloud Infrastructure
-- On-premise ERP â†’ SAP S/4HANA Cloud
-- Local data center â†’ AWS/Azure multi-cloud
-- Batch processing â†’ Real-time streaming
+Legacy Systems â†' Cloud Infrastructure
+- On-premise ERP â†' SAP S/4HANA Cloud
+- Local data center â†' AWS/Azure multi-cloud
+- Batch processing â†' Real-time streaming
 ```
 
 **Data Platform:**
@@ -377,17 +377,17 @@ Features:
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Digital Adoption | % processes digitized | >80% |
-| Automation Rate | % automated vs manual | >60% |
-| Data-Driven Decisions | % decisions using data | >70% |
-| Cloud Utilization | % workloads in cloud | >90% |
+| Digital Adoption | % processes digitized | \&gt;80% |
+| Automation Rate | % automated vs manual | \&gt;60% |
+| Data-Driven Decisions | % decisions using data | \&gt;70% |
+| Cloud Utilization | % workloads in cloud | \&gt;90% |
 
 ### Innovation Metrics
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Time to Market | Idea to production | <3 months |
-| Experiment Success | POCs moving to production | >30% |
+| Time to Market | Idea to production | \&lt;3 months |
+| Experiment Success | POCs moving to production | \&gt;30% |
 | Patent Applications | New IP generated | Growing |
 | Tech Partnerships | Startup/vendor collaborations | 10+ per year |
 
@@ -395,9 +395,9 @@ Features:
 
 | Metric | Description | Measurement |
 |--------|-------------|-------------|
-| Revenue from Digital | % revenue digitally enabled | >50% |
+| Revenue from Digital | % revenue digitally enabled | \&gt;50% |
 | Cost Reduction | Efficiency gains | Track YoY |
-| Customer Satisfaction | Digital experience rating | >4.5/5.0 |
+| Customer Satisfaction | Digital experience rating | \&gt;4.5/5.0 |
 | Employee Productivity | Output per employee | +20% |
 
 ## Chapter Summary

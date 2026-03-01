@@ -84,9 +84,9 @@ REQ-005: System shall maintain audit trail
 **Integration Test Cases:**
 | ID | Flow | Systems Involved |
 |----|------|------------------|
-| IT-001 | Promotion created â†’ Active in POS | MMS â†’ API â†’ POS |
-| IT-002 | Transaction processed â†’ Inventory updated | POS â†’ Inventory â†’ WMS |
-| IT-003 | Price change â†’ All channels updated | Pricing â†’ API â†’ Web/Mobile/POS |
+| IT-001 | Promotion created â†' Active in POS | MMS â†' API â†' POS |
+| IT-002 | Transaction processed â†' Inventory updated | POS â†' Inventory â†' WMS |
+| IT-003 | Price change â†' All channels updated | Pricing â†' API â†' Web/Mobile/POS |
 
 **Performance Test Scenarios:**
 ```
@@ -125,10 +125,10 @@ Endurance Test: 72-hour sustained load, check for memory leaks
 **Performance Testing Results:**
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
-| Response Time (p95) | <200ms | 180ms | âœ… Pass |
-| Throughput | 1000 TPS | 1250 TPS | âœ… Pass |
-| Error Rate | <0.1% | 0.05% | âœ… Pass |
-| CPU Utilization | <70% | 65% | âœ… Pass |
+| Response Time (p95) | \&lt;200ms | 180ms | âœ... Pass |
+| Throughput | 1000 TPS | 1250 TPS | âœ... Pass |
+| Error Rate | \&lt;0.1% | 0.05% | âœ... Pass |
+| CPU Utilization | \&lt;70% | 65% | âœ... Pass |
 
 ### Phase 5: UAT and Go-Live (Weeks 11-12)
 
@@ -337,28 +337,28 @@ Endurance Test: 72-hour sustained load, check for memory leaks
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Code Coverage | % of code exercised by tests | >80% |
+| Code Coverage | % of code exercised by tests | \&gt;80% |
 | Requirement Coverage | % of requirements with tests | 100% |
-| Automation Coverage | % of tests automated | >70% |
+| Automation Coverage | % of tests automated | \&gt;70% |
 | Risk Coverage | High-risk areas covered | 100% |
 
 ### Quality Metrics
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Defect Density | Defects per feature/story | <2 |
-| Defect Escape Rate | Production defects / Total defects | <5% |
+| Defect Density | Defects per feature/story | \&lt;2 |
+| Defect Escape Rate | Production defects / Total defects | \&lt;5% |
 | Mean Time to Detect | Time to find defect | Minimize |
-| Mean Time to Repair | Time to fix and deploy | <24 hours |
+| Mean Time to Repair | Time to fix and deploy | \&lt;24 hours |
 
 ### Efficiency Metrics
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Test Execution Time | Time to run full suite | <2 hours |
-| Flaky Test Rate | Unreliable tests / Total | <2% |
-| False Positive Rate | Incorrect failures / Total | <1% |
-| Build Success Rate | Successful builds / Total | >95% |
+| Test Execution Time | Time to run full suite | \&lt;2 hours |
+| Flaky Test Rate | Unreliable tests / Total | \&lt;2% |
+| False Positive Rate | Incorrect failures / Total | \&lt;1% |
+| Build Success Rate | Successful builds / Total | \&gt;95% |
 
 ## Chapter Summary
 

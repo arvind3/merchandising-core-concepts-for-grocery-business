@@ -1,0 +1,20 @@
+{
+  "id": "resources/about-author",
+  "title": "About the Author",
+  "description": "Arvind Bhardwaj",
+  "source": "@site/docs/resources/about-author.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/about-author",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/resources/about-author",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/resources/about-author.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "References and Additional Resources",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/resources/references"
+  }
+}

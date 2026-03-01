@@ -18,7 +18,7 @@ A well-designed product hierarchy enables:
 ### Standard Grocery Product Hierarchy Levels
 
 ```
-Division â†’ Department â†’ Category â†’ Subcategory â†’ Class â†’ Subclass â†’ SKU
+Division â†' Department â†' Category â†' Subcategory â†' Class â†' Subclass â†' SKU
 ```
 
 **Example Hierarchy:**

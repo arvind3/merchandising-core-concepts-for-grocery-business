@@ -26,8 +26,8 @@
 ### Daily Store Operations Cycle
 
 ```
-Opening Procedures â†’ Receiving â†’ Stocking â†’ Facing â†’ 
-Customer Service â†’ Cleaning â†’ Closing Procedures
+Opening Procedures â†' Receiving â†' Stocking â†' Facing â†' 
+Customer Service â†' Cleaning â†' Closing Procedures
 ```
 
 ## Business Use Case
@@ -84,9 +84,9 @@ Verification Method: Photo audit + manager walk-through
 ```
 
 **Issues Found and Resolved:**
-- 12 products missing from shipment â†’ DC expedite requested
-- 5 shelf tags incorrect â†’ reprinted and replaced
-- 3 planogram discrepancies â†’ corporate notified, corrections made
+- 12 products missing from shipment â†' DC expedite requested
+- 5 shelf tags incorrect â†' reprinted and replaced
+- 3 planogram discrepancies â†' corporate notified, corrections made
 
 ### Week 4: Final Preparation
 
@@ -99,13 +99,13 @@ Verification Method: Photo audit + manager walk-through
 **Grand Opening Readiness Checklist:**
 | Item | Status | Owner |
 |------|--------|-------|
-| Staffing complete | âœ… | Store Manager |
-| Inventory stocked | âœ… | Dept Managers |
+| Staffing complete | âœ... | Store Manager |
+| Inventory stocked | âœ... | Dept Managers |
 | Planogram compliance | 98% | Reset Lead |
-| POS systems tested | âœ… | IT Support |
-| Cleaning complete | âœ… | Maintenance |
-| Signage installed | âœ… | Marketing |
-| Safety inspection passed | âœ… | Safety Manager |
+| POS systems tested | âœ... | IT Support |
+| Cleaning complete | âœ... | Maintenance |
+| Signage installed | âœ... | Marketing |
+| Safety inspection passed | âœ... | Safety Manager |
 
 ### Grand Opening Results
 
@@ -333,7 +333,7 @@ Verification Method: Photo audit + manager walk-through
 | Planogram Compliance | % bays matching plan | 95%+ |
 | On-Shelf Availability | In-stock % for top SKUs | 98%+ |
 | Labor Productivity | Sales / Labor Hour | $150-200/hr |
-| Shrink Percentage | Shrink $ / Sales $ | <1.5% |
+| Shrink Percentage | Shrink $ / Sales $ | \&lt;1.5% |
 
 ### Customer Experience Metrics
 
@@ -341,8 +341,8 @@ Verification Method: Photo audit + manager walk-through
 |--------|-------------|--------|
 | Customer Satisfaction | Survey scores | 4.5/5.0+ |
 | Net Promoter Score | % Promoters - % Detractors | 50+ |
-| Checkout Wait Time | Average queue time | <5 minutes |
-| Issue Resolution Time | Time to resolve complaints | <24 hours |
+| Checkout Wait Time | Average queue time | \&lt;5 minutes |
+| Issue Resolution Time | Time to resolve complaints | \&lt;24 hours |
 
 ## Chapter Summary
 
@@ -372,7 +372,7 @@ Your client is opening 10 new stores with new POS and inventory systems. Design 
 1. POS functionality (all payment types, returns, exchanges)
 2. Inventory receiving and stocking workflows
 3. Planogram compliance verification
-4. System integration (POS â†” Inventory â†” HQ)
+4. System integration (POS â†" Inventory â†" HQ)
 5. Offline mode (network outage scenarios)
 6. Performance under load (grand opening scenario)
 7. User acceptance testing with store staff

@@ -1,0 +1,24 @@
+{
+  "id": "chapters/chapter-07-data-and-analytics-in-merchandising",
+  "title": "Chapter 7: Data and Analytics in Merchandising",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-07-data-and-analytics-in-merchandising.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-07-data-and-analytics-in-merchandising",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-07-data-and-analytics-in-merchandising",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-07-data-and-analytics-in-merchandising.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 6: Store Operations and Execution",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution"
+  },
+  "next": {
+    "title": "Chapter 8: Technology Systems and Integration",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-08-technology-systems-and-integration"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "chapters/chapter-10-future-trends-and-digital-transformation",
+  "title": "Chapter 10: Future Trends and Digital Transformation",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-10-future-trends-and-digital-transformation.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-10-future-trends-and-digital-transformation",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-10-future-trends-and-digital-transformation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-10-future-trends-and-digital-transformation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 9: Quality Engineering in Merchandising",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-09-quality-engineering-in-merchandising"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/resources/glossary"
+  }
+}

@@ -321,16 +321,16 @@ Recommendation: Reduce price from $4.29 to $3.99
 |--------|-------------|--------|
 | Completeness | % populated fields | 98%+ |
 | Accuracy | % correct values | 99%+ |
-| Timeliness | Data freshness | <1 hour delay |
+| Timeliness | Data freshness | \&lt;1 hour delay |
 | Consistency | Cross-system alignment | 99%+ |
 
 ### Analytics Adoption Metrics
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Report Usage | Active users per report | >50% of intended |
+| Report Usage | Active users per report | \&gt;50% of intended |
 | Dashboard Views | Weekly views | Growing trend |
-| Self-Service Rate | % ad-hoc vs. canned reports | >40% |
+| Self-Service Rate | % ad-hoc vs. canned reports | \&gt;40% |
 | Decision Impact | Actions taken from insights | Track qualitatively |
 
 ### Business Value Metrics

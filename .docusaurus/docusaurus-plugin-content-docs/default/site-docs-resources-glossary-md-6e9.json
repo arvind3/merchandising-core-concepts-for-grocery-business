@@ -1,0 +1,24 @@
+{
+  "id": "resources/glossary",
+  "title": "Glossary",
+  "description": "Common terms and definitions used throughout this book.",
+  "source": "@site/docs/resources/glossary.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/glossary",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/resources/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/resources/glossary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 10: Future Trends and Digital Transformation",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-10-future-trends-and-digital-transformation"
+  },
+  "next": {
+    "title": "References and Additional Resources",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/resources/references"
+  }
+}

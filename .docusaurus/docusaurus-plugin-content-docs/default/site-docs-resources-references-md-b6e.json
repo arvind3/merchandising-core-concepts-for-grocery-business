@@ -1,0 +1,24 @@
+{
+  "id": "resources/references",
+  "title": "References and Additional Resources",
+  "description": "Curated list of resources for further learning about grocery merchandising, retail technology, and quality engineering.",
+  "source": "@site/docs/resources/references.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/references",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/resources/references",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/resources/references.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/resources/glossary"
+  },
+  "next": {
+    "title": "About the Author",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/resources/about-author"
+  }
+}

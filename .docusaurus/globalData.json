@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/merchandising-core-concepts-for-grocery-business/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/merchandising-core-concepts-for-grocery-business/",
+          "mainDocId": "chapters/chapter-01-introduction-to-grocery-merchandising",
+          "docs": [
+            {
+              "id": "chapters/chapter-01-introduction-to-grocery-merchandising",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-01-introduction-to-grocery-merchandising",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-02-product-hierarchy-and-categorization",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-02-product-hierarchy-and-categorization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-03-pricing-strategy-and-promotion-management",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-03-pricing-strategy-and-promotion-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-04-inventory-management-and-replenishment",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-04-inventory-management-and-replenishment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-05-supplier-management-and-procurement",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-05-supplier-management-and-procurement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-06-store-operations-and-execution",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-06-store-operations-and-execution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-07-data-and-analytics-in-merchandising",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-07-data-and-analytics-in-merchandising",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-08-technology-systems-and-integration",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-08-technology-systems-and-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-09-quality-engineering-in-merchandising",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-09-quality-engineering-in-merchandising",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/chapter-10-future-trends-and-digital-transformation",
+              "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-10-future-trends-and-digital-transformation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/about-author",
+              "path": "/merchandising-core-concepts-for-grocery-business/resources/about-author",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/glossary",
+              "path": "/merchandising-core-concepts-for-grocery-business/resources/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/references",
+              "path": "/merchandising-core-concepts-for-grocery-business/resources/references",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-01-introduction-to-grocery-merchandising",
+                "label": "chapters/chapter-01-introduction-to-grocery-merchandising"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

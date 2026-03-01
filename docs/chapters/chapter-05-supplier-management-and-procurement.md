@@ -26,8 +26,8 @@
 ### Procurement Process Flow
 
 ```
-Need Identification â†’ Supplier Selection â†’ Negotiation â†’ 
-Purchase Order â†’ Order Tracking â†’ Receiving â†’ Payment â†’ Performance Review
+Need Identification â†' Supplier Selection â†' Negotiation â†' 
+Purchase Order â†' Order Tracking â†' Receiving â†' Payment â†' Performance Review
 ```
 
 ## Business Use Case
@@ -298,16 +298,16 @@ ValueMart is launching a 200-SKU private label organic brand and needs to source
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| PO Cycle Time | Avg time from requisition to PO | <3 days |
+| PO Cycle Time | Avg time from requisition to PO | \&lt;3 days |
 | Cost Savings | (Baseline - Actual) / Baseline | 5-10% annually |
 | Supplier Count | Active suppliers by category | Optimized |
-| Maverick Spend | Non-contract spend / Total spend | <10% |
+| Maverick Spend | Non-contract spend / Total spend | \&lt;10% |
 
 ### Risk Metrics
 
 | Metric | Description | Target |
 |--------|-------------|--------|
-| Single-Source % | SKUs with single supplier | <20% |
+| Single-Source % | SKUs with single supplier | \&lt;20% |
 | Geographic Concentration | Spend by region | Diversified |
 | Financial Risk Score | Supplier financial health | Low risk |
 | Compliance Score | Audit results | 90%+ |

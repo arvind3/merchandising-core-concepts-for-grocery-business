@@ -1,0 +1,24 @@
+{
+  "id": "chapters/chapter-02-product-hierarchy-and-categorization",
+  "title": "Chapter 2: Product Hierarchy and Categorization",
+  "description": "Concept Explanation",
+  "source": "@site/docs/chapters/chapter-02-product-hierarchy-and-categorization.md",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/chapter-02-product-hierarchy-and-categorization",
+  "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-02-product-hierarchy-and-categorization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/docs/chapters/chapter-02-product-hierarchy-and-categorization.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to Grocery Merchandising",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-01-introduction-to-grocery-merchandising"
+  },
+  "next": {
+    "title": "Chapter 3: Pricing Strategy and Promotion Management",
+    "permalink": "/merchandising-core-concepts-for-grocery-business/chapters/chapter-03-pricing-strategy-and-promotion-management"
+  }
+}
