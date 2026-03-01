@@ -2,118 +2,29 @@
 
 ```yaml
 - generic [ref=e2]:
-  - heading "merchandising-core-concepts-for-grocery-business" [level=1] [ref=e3]:
-    - link "merchandising-core-concepts-for-grocery-business" [ref=e4] [cursor=pointer]:
-      - /url: https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/
-  - heading "Merchandising Core Concepts for the Grocery Business" [level=1] [ref=e5]
-  - paragraph [ref=e6]:
-    - strong [ref=e7]: A comprehensive guide for Quality Engineers and IT professionals
-  - generic [ref=e8]: "**10 Chapters** covering end-to-end grocery merchandising 🎯 **Beginner-friendly** language for technical professionals 💼 **Real-world examples** from grocery business scenarios 🛠️ **Tools & Technologies** used in modern retail"
-  - separator [ref=e9]
-  - heading "About This BookAnchor" [level=2] [ref=e10]:
-    - text: About This Book
-    - link "Anchor" [ref=e11] [cursor=pointer]:
-      - /url: "#about-this-book"
-      - text: 
-  - paragraph [ref=e12]: This book provides a practical, beginner-friendly introduction to merchandising concepts in the grocery retail industry. Whether you’re new to the domain or supporting retail projects, this guide will help you understand the business processes, workflows, and systems that power grocery merchandising.
-  - heading "Who Should Read This Book?Anchor" [level=3] [ref=e13]:
-    - text: Who Should Read This Book?
-    - link "Anchor" [ref=e14] [cursor=pointer]:
-      - /url: "#who-should-read-this-book"
-      - text: 
-  - paragraph [ref=e15]:
-    - text: This book is designed for
-    - strong [ref=e16]: Quality Engineers and IT professionals
-    - text: "who:"
-  - list [ref=e17]:
-    - listitem [ref=e18]: ✅ Are new to the grocery retail domain
-    - listitem [ref=e19]: ✅ Support testing, DevOps, or product teams in retail projects
-    - listitem [ref=e20]: ✅ Want to understand business processes and workflows
-    - listitem [ref=e21]: ✅ Need clarity on roles and responsibilities within grocery merchandising
-    - listitem [ref=e22]: ✅ Want to understand major retail systems and technologies
-  - separator [ref=e23]
-  - heading "ChaptersAnchor" [level=2] [ref=e24]:
-    - text: Chapters
-    - link "Anchor" [ref=e25] [cursor=pointer]:
-      - /url: "#chapters"
-      - text: 
-  - generic [ref=e26]: "### 📖 Chapter 1: Introduction to Grocery Merchandising Merchandising lifecycle, key stakeholders, and core concepts. [Read Chapter 1 →](chapters/chapter-01-introduction-to-grocery-merchandising) ### 📊 Chapter 2: Product Hierarchy and Categorization Product taxonomy, planograms, and category management fundamentals. [Read Chapter 2 →](chapters/chapter-02-product-hierarchy-and-categorization) ### 💰 Chapter 3: Pricing Strategy and Promotion Management Pricing models, promotions, and price optimization strategies. [Read Chapter 3 →](chapters/chapter-03-pricing-strategy-and-promotion-management) ### 📦 Chapter 4: Inventory Management and Replenishment Inventory control, safety stock, and automated replenishment. [Read Chapter 4 →](chapters/chapter-04-inventory-management-and-replenishment) ### 🤝 Chapter 5: Supplier Management and Procurement Sourcing, procurement workflows, and supplier relationships. [Read Chapter 5 →](chapters/chapter-05-supplier-management-and-procurement) ### 🏪 Chapter 6: Store Operations and Execution Store operations, planogram compliance, and execution excellence. [Read Chapter 6 →](chapters/chapter-06-store-operations-and-execution) ### 📈 Chapter 7: Data and Analytics in Merchandising Business intelligence, analytics, and data-driven decisions. [Read Chapter 7 →](chapters/chapter-07-data-and-analytics-in-merchandising) ### 🔗 Chapter 8: Technology Systems and Integration Retail systems, integration patterns, and APIs. [Read Chapter 8 →](chapters/chapter-08-technology-systems-and-integration) ### 🧪 Chapter 9: Quality Engineering in Merchandising Testing strategies, automation, and QE best practices. [Read Chapter 9 →](chapters/chapter-09-quality-engineering-in-merchandising) ### 🚀 Chapter 10: Future Trends and Digital Transformation AI, IoT, cloud, and the future of grocery retail. [Read Chapter 10 →](chapters/chapter-10-future-trends-and-digital-transformation)"
-  - separator [ref=e27]
-  - heading "ResourcesAnchor" [level=2] [ref=e28]:
-    - text: Resources
-    - link "Anchor" [ref=e29] [cursor=pointer]:
-      - /url: "#resources"
-      - text: 
-  - list [ref=e30]:
-    - listitem [ref=e31]:
-      - text: 📖
-      - strong [ref=e32]:
-        - link "Glossary" [ref=e33] [cursor=pointer]:
-          - /url: resources/glossary
-      - text: "- Common terms and definitions"
-    - listitem [ref=e34]:
-      - text: 🔗
-      - strong [ref=e35]:
-        - link "References" [ref=e36] [cursor=pointer]:
-          - /url: resources/references
-      - text: "- Additional learning resources"
-    - listitem [ref=e37]:
-      - text: 👤
-      - strong [ref=e38]:
-        - link "About the Author" [ref=e39] [cursor=pointer]:
-          - /url: resources/about-author
-      - text: "- Meet Arvind Bhardwaj"
-  - separator [ref=e40]
-  - heading "Built with Agentic FrameworkAnchor" [level=2] [ref=e41]:
-    - text: Built with Agentic Framework
-    - link "Anchor" [ref=e42] [cursor=pointer]:
-      - /url: "#built-with-agentic-framework"
-      - text: 
-  - paragraph [ref=e43]:
-    - text: This book was created using the
-    - strong [ref=e44]: Multi-Agent Book Factory
-    - text: "framework, which orchestrates content creation through specialized agents:"
-  - table [ref=e45]:
-    - rowgroup [ref=e46]:
-      - row "Agent Role" [ref=e47]:
-        - columnheader "Agent" [ref=e48]
-        - columnheader "Role" [ref=e49]
-    - rowgroup [ref=e50]:
-      - row "Program Manager Workflow orchestration and quality gates" [ref=e51]:
-        - cell "Program Manager" [ref=e52]
-        - cell "Workflow orchestration and quality gates" [ref=e53]
-      - row "Research Synthesis Evidence gathering and source validation" [ref=e54]:
-        - cell "Research Synthesis" [ref=e55]
-        - cell "Evidence gathering and source validation" [ref=e56]
-      - row "Technical Architect Chapter blueprints and structure" [ref=e57]:
-        - cell "Technical Architect" [ref=e58]
-        - cell "Chapter blueprints and structure" [ref=e59]
-      - row "Author Content drafting" [ref=e60]:
-        - cell "Author" [ref=e61]
-        - cell "Content drafting" [ref=e62]
-      - row "Review Triad Quality review and feedback" [ref=e63]:
-        - cell "Review Triad" [ref=e64]
-        - cell "Quality review and feedback" [ref=e65]
-      - row "Visual Intelligence Diagrams and visual assets" [ref=e66]:
-        - cell "Visual Intelligence" [ref=e67]
-        - cell "Diagrams and visual assets" [ref=e68]
-      - row "QA Eval Final quality assessment" [ref=e69]:
-        - cell "QA Eval" [ref=e70]
-        - cell "Final quality assessment" [ref=e71]
-      - row "Publishing Release and deployment" [ref=e72]:
-        - cell "Publishing" [ref=e73]
-        - cell "Release and deployment" [ref=e74]
-  - paragraph [ref=e75]:
-    - strong [ref=e76]: "Learn more:"
-    - link "Factory Framework on GitHub" [ref=e77] [cursor=pointer]:
-      - /url: https://github.com/arvind3/factory
-  - separator [ref=e78]
-  - heading "Quick StartAnchor" [level=2] [ref=e79]:
-    - text: Quick Start
-    - link "Anchor" [ref=e80] [cursor=pointer]:
-      - /url: "#quick-start"
-      - text: 
-  - generic [ref=e81]: "**New to merchandising?** Start with [Chapter 1](chapters/chapter-01-introduction-to-grocery-merchandising) for foundational concepts. **Need a quick reference?** Check the [Glossary](resources/glossary) for term definitions. **Looking for more resources?** See [References](resources/references) for additional learning materials."
-  - separator [ref=e82]
-  - generic [ref=e83]: "**Target Audience:** Quality Engineers and IT professionals **Level:** Beginner-friendly **Format:** Interactive Docusaurus book **License:** MIT"
+  - heading "404" [level=1] [ref=e3]
+  - paragraph [ref=e4]:
+    - strong [ref=e5]: File not found
+  - paragraph [ref=e6]: The site configured at this address does not contain the requested file.
+  - paragraph [ref=e7]:
+    - text: If this is your site, make sure that the filename case matches the URL as well as any file permissions.
+    - text: For root URLs (like
+    - code [ref=e8]: http://example.com/
+    - text: ) you must provide an
+    - code [ref=e9]: index.html
+    - text: file.
+  - paragraph [ref=e10]:
+    - link "Read the full documentation" [ref=e11] [cursor=pointer]:
+      - /url: https://help.github.com/pages/
+    - text: for more information about using
+    - strong [ref=e12]: GitHub Pages
+    - text: .
+  - generic [ref=e13]:
+    - link "GitHub Status" [ref=e14] [cursor=pointer]:
+      - /url: https://githubstatus.com
+    - text: —
+    - link "@githubstatus" [ref=e15] [cursor=pointer]:
+      - /url: https://twitter.com/githubstatus
+  - link [ref=e16] [cursor=pointer]:
+    - /url: /
 ```

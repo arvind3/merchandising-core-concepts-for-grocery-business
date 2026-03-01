@@ -261,64 +261,6 @@ function WhatYouGetSection(): JSX.Element {
   );
 }
 
-function AgenticFrameworkSection(): JSX.Element {
-  return (
-    <section className={clsx(styles.section, styles.frameworkSection)}>
-      <div className="container">
-        <h2 className={clsx('text--center', styles.sectionTitle)}>
-          Built with Agentic Framework
-        </h2>
-        <p className={clsx('text--center', styles.sectionSubtitle)}>
-          This book was created using the Multi-Agent Book Factory framework
-        </p>
-        <div className={styles.frameworkTable}>
-          <table>
-            <thead>
-              <tr>
-                <th>Agent</th>
-                <th>Role</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Program Manager</td>
-                <td>Workflow orchestration and quality gates</td>
-              </tr>
-              <tr>
-                <td>Research Synthesis</td>
-                <td>Evidence gathering and source validation</td>
-              </tr>
-              <tr>
-                <td>Technical Architect</td>
-                <td>Chapter blueprints and structure</td>
-              </tr>
-              <tr>
-                <td>Author</td>
-                <td>Content drafting</td>
-              </tr>
-              <tr>
-                <td>Review Triad</td>
-                <td>Quality review and feedback</td>
-              </tr>
-              <tr>
-                <td>QA Eval</td>
-                <td>Final quality assessment</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div className="text--center">
-          <Link
-            className="button button--outline button--primary button--md"
-            to="https://github.com/arvind3/factory">
-            Learn More About Factory Framework →
-          </Link>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function FooterCTA(): JSX.Element {
   return (
     <section className={clsx(styles.section, styles.ctaSection)}>
@@ -350,7 +292,6 @@ export default function Home(): JSX.Element {
         <TargetAudienceSection />
         <WhatYouGetSection />
         <ChaptersSection />
-        <AgenticFrameworkSection />
         <FooterCTA />
       </main>
     </Layout>

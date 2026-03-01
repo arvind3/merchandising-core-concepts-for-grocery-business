@@ -8,7 +8,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/',
+    baseURL: 'http://localhost:3000/merchandising-core-concepts-for-grocery-business/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
@@ -30,4 +30,9 @@ export default defineConfig({
       use: { ...devices['Pixel 5'] },
     },
   ],
+  webServer: {
+    command: 'npm run serve',
+    port: 3000,
+    reuseExistingServer: true,
+  },
 });

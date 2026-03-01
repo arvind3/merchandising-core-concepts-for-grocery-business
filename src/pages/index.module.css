@@ -254,46 +254,6 @@
   line-height: 1.6;
 }
 
-/* Framework Section */
-.frameworkSection {
-  background: var(--ifm-color-emphasis-100);
-}
-
-.frameworkTable {
-  max-width: 800px;
-  margin: 2rem auto;
-  background: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.frameworkTable table {
-  width: 100%;
-  margin: 0;
-}
-
-.frameworkTable th {
-  background: var(--ifm-color-primary);
-  color: white;
-  padding: 1rem;
-  text-align: left;
-  font-weight: 600;
-}
-
-.frameworkTable td {
-  padding: 1rem;
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-}
-
-.frameworkTable tr:last-child td {
-  border-bottom: none;
-}
-
-.frameworkTable tr:nth-child(even) {
-  background: var(--ifm-color-emphasis-100);
-}
-
 /* CTA Section */
 .ctaSection {
   background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
