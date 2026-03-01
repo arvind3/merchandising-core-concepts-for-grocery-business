@@ -3,13 +3,8 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
-      type: 'doc',
-      id: 'index',
-      label: '📚 Home',
-    },
-    {
       type: 'category',
-      label: 'Chapters',
+      label: '📚 Chapters',
       items: [
         'chapters/chapter-01-introduction-to-grocery-merchandising',
         'chapters/chapter-02-product-hierarchy-and-categorization',
@@ -25,7 +20,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Resources',
+      label: '📖 Resources',
       items: [
         'resources/glossary',
         'resources/references',
