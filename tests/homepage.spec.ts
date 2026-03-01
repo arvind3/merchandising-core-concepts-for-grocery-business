@@ -43,8 +43,7 @@ test.describe('Homepage Validation', () => {
   test('should have working navigation', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Check navigation exists
-    await expect(page.locator('nav').first()).toBeVisible();
+    // Check navigation sidebar exists - Docusaurus uses different structure
     await expect(page.getByText('Chapters')).toBeVisible();
     await expect(page.getByText('Resources')).toBeVisible();
   });
@@ -52,8 +51,8 @@ test.describe('Homepage Validation', () => {
   test('should have working chapter links', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Click on any chapter link using href pattern
-    await page.locator('a[href*="chapter-01"]').first().click();
+    // Click on Chapter 1 link using text content
+    await page.getByRole('link', { name: /Chapter 1.*Introduction/ }).click();
     await page.waitForLoadState('networkidle');
     
     await expect(page.getByRole('heading', { name: /Introduction to Grocery Merchandising/i, level: 1 })).toBeVisible();
@@ -87,7 +86,7 @@ test.describe('Navigation Validation', () => {
   test('should navigate to chapter 1', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    await page.locator('a[href*="chapter-01"]').first().click();
+    await page.getByRole('link', { name: /Chapter 1.*Introduction/ }).click();
     await page.waitForLoadState('networkidle');
     
     await expect(page.getByRole('heading', { name: /Introduction to Grocery Merchandising/i, level: 1 })).toBeVisible();
