@@ -149,9 +149,9 @@
     "354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.4a9ec3ab.js",
-          "hash": "8603de9f380afa8a",
-          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/runtime~main.4a9ec3ab.js"
+          "file": "assets/js/runtime~main.9b5dfd4d.js",
+          "hash": "9cb0fc6af5f5d90f",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/runtime~main.9b5dfd4d.js"
         }
       ]
     },
@@ -194,9 +194,9 @@
     "583": {
       "js": [
         {
-          "file": "assets/js/1df93b7f.374af485.js",
-          "hash": "e5b11f8b46e56781",
-          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/1df93b7f.374af485.js"
+          "file": "assets/js/1df93b7f.18e90085.js",
+          "hash": "538d9c6fb16c3491",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/js/1df93b7f.18e90085.js"
         }
       ]
     },
@@ -275,9 +275,9 @@
     "869": {
       "css": [
         {
-          "file": "assets/css/styles.07cd01ed.css",
-          "hash": "795fd75223163959",
-          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/css/styles.07cd01ed.css"
+          "file": "assets/css/styles.eb906a07.css",
+          "hash": "531e0e8854fa96a6",
+          "publicPath": "/merchandising-core-concepts-for-grocery-business/assets/css/styles.eb906a07.css"
         }
       ]
     },

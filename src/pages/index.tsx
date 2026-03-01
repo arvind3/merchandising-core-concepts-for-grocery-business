@@ -36,60 +36,70 @@ const chapters = [
     title: 'Introduction to Grocery Merchandising',
     description: 'Merchandising lifecycle, key stakeholders, and core concepts',
     icon: '📚',
+    slug: 'introduction-to-grocery-merchandising',
   },
   {
     number: '02',
     title: 'Product Hierarchy and Categorization',
     description: 'Product taxonomy, planograms, and category management',
     icon: '📊',
+    slug: 'product-hierarchy-and-categorization',
   },
   {
     number: '03',
     title: 'Pricing Strategy and Promotion Management',
     description: 'Pricing models, promotions, and optimization strategies',
     icon: '💰',
+    slug: 'pricing-strategy-and-promotion-management',
   },
   {
     number: '04',
     title: 'Inventory Management and Replenishment',
     description: 'Inventory control, safety stock, and automated replenishment',
     icon: '📦',
+    slug: 'inventory-management-and-replenishment',
   },
   {
     number: '05',
     title: 'Supplier Management and Procurement',
     description: 'Sourcing, procurement workflows, and supplier relationships',
     icon: '🤝',
+    slug: 'supplier-management-and-procurement',
   },
   {
     number: '06',
     title: 'Store Operations and Execution',
     description: 'Store operations, planogram compliance, and execution',
     icon: '🏪',
+    slug: 'store-operations-and-execution',
   },
   {
     number: '07',
     title: 'Data and Analytics in Merchandising',
     description: 'Business intelligence, analytics, and data-driven decisions',
     icon: '📈',
+    slug: 'data-and-analytics-in-merchandising',
   },
   {
     number: '08',
     title: 'Technology Systems and Integration',
     description: 'Retail systems, integration patterns, and APIs',
     icon: '🔗',
+    slug: 'technology-systems-and-integration',
   },
   {
     number: '09',
     title: 'Quality Engineering in Merchandising',
     description: 'Testing strategies, automation, and QE best practices',
     icon: '🧪',
+    slug: 'quality-engineering-in-merchandising',
   },
   {
     number: '10',
     title: 'Future Trends and Digital Transformation',
     description: 'AI, IoT, cloud, and the future of grocery retail',
     icon: '🚀',
+    slug: 'future-trends-and-digital-transformation',
   },
 ];
 
@@ -112,10 +122,10 @@ function Feature({ title, description, icon }: { title: string; description: str
   );
 }
 
-function ChapterCard({ number, title, description, icon }: { number: string; title: string; description: string; icon: string }) {
+function ChapterCard({ number, title, description, icon, slug }: { number: string; title: string; description: string; icon: string; slug: string }) {
   return (
     <Link 
-      to={`/chapters/chapter-${number.toLowerCase()}-introduction-to-grocery-merchandising`.replace(number.toLowerCase(), number.toLowerCase())}
+      to={`/chapters/chapter-${number}-${slug}`}
       className={clsx('col col--4', styles.chapterLink)}
     >
       <div className={styles.chapterCard}>
@@ -207,6 +217,7 @@ function ChaptersSection(): JSX.Element {
               title={chapter.title}
               description={chapter.description}
               icon={chapter.icon}
+              slug={chapter.slug}
             />
           ))}
         </div>
