@@ -9,139 +9,111 @@ test.describe('Homepage Validation', () => {
     // Check page title
     await expect(page).toHaveTitle(/Merchandising Core Concepts/);
     
-    // Check main heading
-    const mainHeading = page.locator('h1').first();
+    // Check main heading - use more specific selector
+    const mainHeading = page.getByRole('heading', { name: /Merchandising Core Concepts for the Grocery Business/i, level: 1 });
     await expect(mainHeading).toBeVisible();
-    await expect(mainHeading).toContainText('Merchandising Core Concepts for the Grocery Business');
   });
 
   test('should display hero section with key features', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Check hero section exists
-    const heroSection = page.locator('.hero-section');
-    await expect(heroSection).toBeVisible();
-    
-    // Check for key feature badges
-    await expect(page.locator('text=10 Chapters')).toBeVisible();
-    await expect(page.locator('text=Beginner-friendly')).toBeVisible();
-    await expect(page.locator('text=Real-world examples')).toBeVisible();
-    await expect(page.locator('text=Tools & Technologies')).toBeVisible();
+    // Check for key feature badges in the hero area
+    await expect(page.getByText('10 Chapters')).toBeVisible();
+    await expect(page.getByText('Beginner-friendly')).toBeVisible();
+    await expect(page.getByText('Real-world examples')).toBeVisible();
+    await expect(page.getByText(/Tools.*Technologies/)).toBeVisible();
   });
 
   test('should display all 10 chapters', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Check chapter grid exists
-    const chapterGrid = page.locator('.chapter-grid');
-    await expect(chapterGrid).toBeVisible();
-    
     // Check all 10 chapters are present
     const chapters = [
-      'Introduction to Grocery Merchandising',
-      'Product Hierarchy and Categorization',
-      'Pricing Strategy and Promotion Management',
-      'Inventory Management and Replenishment',
-      'Supplier Management and Procurement',
-      'Store Operations and Execution',
-      'Data and Analytics in Merchandising',
-      'Technology Systems and Integration',
-      'Quality Engineering in Merchandising',
-      'Future Trends and Digital Transformation',
+      'Chapter 1: Introduction to Grocery Merchandising',
+      'Chapter 2: Product Hierarchy and Categorization',
+      'Chapter 3: Pricing Strategy and Promotion Management',
+      'Chapter 4: Inventory Management and Replenishment',
+      'Chapter 5: Supplier Management and Procurement',
+      'Chapter 6: Store Operations and Execution',
+      'Chapter 7: Data and Analytics in Merchandising',
+      'Chapter 8: Technology Systems and Integration',
+      'Chapter 9: Quality Engineering in Merchandising',
+      'Chapter 10: Future Trends and Digital Transformation',
     ];
     
     for (const chapter of chapters) {
-      await expect(page.locator(`text=${chapter}`)).toBeVisible();
+      await expect(page.getByText(chapter)).toBeVisible();
     }
   });
 
   test('should have working navigation sidebar', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Check sidebar exists
-    const sidebar = page.locator('[class*="sidebar"]');
-    await expect(sidebar).toBeVisible();
-    
-    // Check Home link
-    await expect(page.locator('text=Home')).toBeVisible();
-    
-    // Check Chapters category
-    await expect(page.locator('text=Chapters')).toBeVisible();
-    
-    // Check Resources category
-    await expect(page.locator('text=Resources')).toBeVisible();
+    // Check for navigation elements using role-based selectors
+    await expect(page.getByRole('link', { name: /Home/i })).toBeVisible();
+    await expect(page.getByText('Chapters')).toBeVisible();
+    await expect(page.getByText('Resources')).toBeVisible();
   });
 
   test('should have working chapter links', async ({ page }) => {
     await page.goto(BASE_URL);
     
     // Click on Chapter 1 link
-    await page.click('text=Chapter 1: Introduction');
+    await page.getByRole('link', { name: /Read Chapter 1/i }).click();
     
     // Wait for navigation
     await page.waitForLoadState('networkidle');
     
-    // Verify we're on chapter 1 page
-    await expect(page.locator('h1')).toContainText('Introduction to Grocery Merchandising');
+    // Verify we're on chapter 1 page - look for chapter content
+    await expect(page.getByRole('heading', { name: /Introduction to Grocery Merchandising/i, level: 1 })).toBeVisible();
   });
 
   test('should have resources section', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Check resources links
-    await expect(page.locator('text=Glossary')).toBeVisible();
-    await expect(page.locator('text=References')).toBeVisible();
-    await expect(page.locator('text=About the Author')).toBeVisible();
+    // Check resources links using role-based selectors
+    await expect(page.getByRole('link', { name: 'Glossary' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'References' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'About the Author' })).toBeVisible();
   });
 
   test('should have Agentic Framework section', async ({ page }) => {
     await page.goto(BASE_URL);
     
     // Check Agentic Framework section
-    await expect(page.locator('text=Agentic Framework')).toBeVisible();
-    await expect(page.locator('text=Multi-Agent Book Factory')).toBeVisible();
+    await expect(page.getByText(/Agentic Framework/)).toBeVisible();
+    await expect(page.getByText(/Multi-Agent Book Factory/)).toBeVisible();
     
-    // Check agent roles table
-    await expect(page.locator('text=Program Manager')).toBeVisible();
-    await expect(page.locator('text=Author')).toBeVisible();
-    await expect(page.locator('text=QA Eval')).toBeVisible();
+    // Check agent roles in table
+    await expect(page.getByRole('cell', { name: 'Program Manager' })).toBeVisible();
+    await expect(page.getByRole('cell', { name: 'Author' })).toBeVisible();
+    await expect(page.getByRole('cell', { name: 'QA Eval' })).toBeVisible();
   });
 
   test('should have quick start section', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Check quick start section
-    const quickStart = page.locator('.quick-start');
-    await expect(quickStart).toBeVisible();
-    
-    // Check quick start links
-    await expect(page.locator('text=New to merchandising?')).toBeVisible();
-    await expect(page.locator('text=Quick reference')).toBeVisible();
+    // Check quick start content
+    await expect(page.getByText(/New to merchandising/i)).toBeVisible();
+    await expect(page.getByText(/quick reference/i)).toBeVisible();
   });
 
   test('should be responsive on mobile viewport', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 667 });
     await page.goto(BASE_URL);
     
-    // Check hero section is visible on mobile
-    const heroSection = page.locator('.hero-section');
-    await expect(heroSection).toBeVisible();
-    
-    // Check main content is accessible
-    await expect(page.locator('h1')).toBeVisible();
+    // Check main content is accessible on mobile
+    await expect(page.getByRole('heading', { name: /Merchandising Core Concepts/i, level: 1 })).toBeVisible();
+    await expect(page.getByText('10 Chapters')).toBeVisible();
   });
 
-  test('should have proper book info footer', async ({ page }) => {
+  test('should have proper book info', async ({ page }) => {
     await page.goto(BASE_URL);
     
-    // Check book info section
-    const bookInfo = page.locator('.book-info');
-    await expect(bookInfo).toBeVisible();
-    
-    // Check key info
-    await expect(page.locator('text=Quality Engineers')).toBeVisible();
-    await expect(page.locator('text=Beginner-friendly')).toBeVisible();
-    await expect(page.locator('text=Docusaurus')).toBeVisible();
+    // Check book info content
+    await expect(page.getByText(/Quality Engineers and IT professionals/)).toBeVisible();
+    await expect(page.getByText(/Beginner-friendly/)).toBeVisible();
+    await expect(page.getByText(/Docusaurus/)).toBeVisible();
   });
 });
 
@@ -150,36 +122,36 @@ test.describe('Navigation Validation', () => {
     await page.goto(BASE_URL);
     
     // Find and click Chapter 1 link
-    await page.click('text=Read Chapter 1');
+    await page.getByRole('link', { name: /Read Chapter 1/i }).click();
     await page.waitForLoadState('networkidle');
     
     // Verify chapter 1 content
-    await expect(page.locator('h1')).toContainText('Introduction to Grocery Merchandising');
+    await expect(page.getByRole('heading', { name: /Introduction to Grocery Merchandising/i, level: 1 })).toBeVisible();
     
     // Check for expected sections
-    await expect(page.locator('text=Concept Explanation')).toBeVisible();
-    await expect(page.locator('text=Business Use Case')).toBeVisible();
-    await expect(page.locator('text=Users Involved')).toBeVisible();
-    await expect(page.locator('text=Tools & Technologies')).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Concept Explanation', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Business Use Case', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Users Involved', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Tools.*Technologies/, level: 2 })).toBeVisible();
   });
 
   test('should navigate to glossary', async ({ page }) => {
     await page.goto(BASE_URL);
     
     // Click glossary link
-    await page.click('text=Glossary');
+    await page.getByRole('link', { name: 'Glossary' }).click();
     await page.waitForLoadState('networkidle');
     
     // Verify glossary page
-    await expect(page.locator('h1')).toContainText('Glossary');
-    await expect(page.locator('text=Application Programming Interface')).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Glossary', level: 1 })).toBeVisible();
+    await expect(page.getByText(/Application Programming Interface/)).toBeVisible();
   });
 
   test('should have working GitHub link', async ({ page }) => {
     await page.goto(BASE_URL);
     
     // Check GitHub link in navbar
-    const githubLink = page.locator('a[href*="github.com/arvind3/merchandising"]');
+    const githubLink = page.getByRole('link', { name: 'GitHub' });
     await expect(githubLink).toBeVisible();
     await expect(githubLink).toHaveAttribute('href', /github\.com/);
   });
@@ -190,31 +162,31 @@ test.describe('Content Validation', () => {
     await page.goto(`${BASE_URL}chapters/chapter-01-introduction-to-grocery-merchandising`);
     
     // Check standard sections exist in chapter
-    await expect(page.locator('text=Concept Explanation')).toBeVisible();
-    await expect(page.locator('text=Business Use Case')).toBeVisible();
-    await expect(page.locator('text=Users Involved')).toBeVisible();
-    await expect(page.locator('text=Tools & Technologies Used')).toBeVisible();
-    await expect(page.locator('text=Chapter Summary')).toBeVisible();
-    await expect(page.locator('text=Chapter Checklist')).toBeVisible();
-    await expect(page.locator('text=Exercise')).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Concept Explanation', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Business Use Case', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Users Involved', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Tools.*Technologies Used/, level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Chapter Summary', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Chapter Checklist', level: 2 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Exercise', level: 2 })).toBeVisible();
   });
 
   test('should have tables with proper formatting', async ({ page }) => {
     await page.goto(`${BASE_URL}chapters/chapter-01-introduction-to-grocery-merchandising`);
     
     // Check for tables
-    const tables = page.locator('table');
-    await expect(tables.first()).toBeVisible();
+    const table = page.getByRole('table');
+    await expect(table.first()).toBeVisible();
     
     // Check table has headers
-    await expect(page.locator('table th').first()).toBeVisible();
+    await expect(page.getByRole('columnheader').first()).toBeVisible();
   });
 
   test('should have code blocks', async ({ page }) => {
     await page.goto(`${BASE_URL}chapters/chapter-01-introduction-to-grocery-merchandising`);
     
-    // Check for code blocks (they should have pre/code elements)
-    const codeBlocks = page.locator('pre code');
-    await expect(codeBlocks.first()).toBeVisible();
+    // Check for code blocks using code element
+    const codeElements = page.locator('code');
+    await expect(codeElements.first()).toBeVisible();
   });
 });

@@ -1,0 +1,386 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - heading "merchandising-core-concepts-for-grocery-business" [level=1] [ref=e3]:
+    - link "merchandising-core-concepts-for-grocery-business" [ref=e4] [cursor=pointer]:
+      - /url: https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/
+  - 'heading "Chapter 1: Introduction to Grocery Merchandising" [level=1] [ref=e5]'
+  - heading "Concept ExplanationAnchor" [level=2] [ref=e6]:
+    - text: Concept Explanation
+    - link "Anchor" [ref=e7] [cursor=pointer]:
+      - /url: "#concept-explanation"
+      - text: 
+  - paragraph [ref=e8]:
+    - strong [ref=e9]: Merchandising
+    - text: in grocery retail refers to the strategic planning, execution, and management of product offerings to maximize sales and customer satisfaction. It encompasses everything from selecting which products to stock, how to price them, where to place them in the store, and when to promote them.
+  - paragraph [ref=e10]: "At its core, merchandising answers three fundamental questions:"
+  - list [ref=e11]:
+    - listitem [ref=e12]:
+      - strong [ref=e13]: What
+      - text: products should we offer?
+    - listitem [ref=e14]:
+      - strong [ref=e15]: How
+      - text: should we price and present them?
+    - listitem [ref=e16]:
+      - strong [ref=e17]: When
+      - text: should we promote or adjust them?
+  - heading "The Merchandising LifecycleAnchor" [level=3] [ref=e18]:
+    - text: The Merchandising Lifecycle
+    - link "Anchor" [ref=e19] [cursor=pointer]:
+      - /url: "#the-merchandising-lifecycle"
+      - text: 
+  - paragraph [ref=e20]: "The merchandising lifecycle is a continuous cycle that includes:"
+  - list [ref=e21]:
+    - listitem [ref=e22]:
+      - strong [ref=e23]: Planning
+      - text: – Defining product assortment, pricing strategies, and promotional calendars
+    - listitem [ref=e24]:
+      - strong [ref=e25]: Sourcing
+      - text: – Working with suppliers to procure products
+    - listitem [ref=e26]:
+      - strong [ref=e27]: Distribution
+      - text: – Moving products from suppliers to distribution centers to stores
+    - listitem [ref=e28]:
+      - strong [ref=e29]: Execution
+      - text: – Placing products on shelves according to planograms
+    - listitem [ref=e30]:
+      - strong [ref=e31]: Monitoring
+      - text: – Tracking sales, inventory levels, and customer response
+    - listitem [ref=e32]:
+      - strong [ref=e33]: Optimization
+      - text: – Adjusting strategies based on performance data
+  - heading "Key StakeholdersAnchor" [level=3] [ref=e34]:
+    - text: Key Stakeholders
+    - link "Anchor" [ref=e35] [cursor=pointer]:
+      - /url: "#key-stakeholders"
+      - text: 
+  - paragraph [ref=e36]: "Merchandising involves multiple stakeholders across the organization:"
+  - table [ref=e37]:
+    - rowgroup [ref=e38]:
+      - row "Stakeholder Primary Responsibility" [ref=e39]:
+        - columnheader "Stakeholder" [ref=e40]
+        - columnheader "Primary Responsibility" [ref=e41]
+    - rowgroup [ref=e42]:
+      - row "Merchandising Manager Overall strategy and product assortment" [ref=e43]:
+        - cell "Merchandising Manager" [ref=e44]
+        - cell "Overall strategy and product assortment" [ref=e45]
+      - row "Category Manager Specific product category performance" [ref=e46]:
+        - cell "Category Manager" [ref=e47]
+        - cell "Specific product category performance" [ref=e48]
+      - row "Buyer Supplier negotiations and purchase orders" [ref=e49]:
+        - cell "Buyer" [ref=e50]
+        - cell "Supplier negotiations and purchase orders" [ref=e51]
+      - row "Pricing Analyst Price optimization and competitive analysis" [ref=e52]:
+        - cell "Pricing Analyst" [ref=e53]
+        - cell "Price optimization and competitive analysis" [ref=e54]
+      - row "Store Manager In-store execution and compliance" [ref=e55]:
+        - cell "Store Manager" [ref=e56]
+        - cell "In-store execution and compliance" [ref=e57]
+      - row "Supply Chain Manager Inventory flow and replenishment" [ref=e58]:
+        - cell "Supply Chain Manager" [ref=e59]
+        - cell "Inventory flow and replenishment" [ref=e60]
+      - row "Quality Engineer Testing systems and validating workflows" [ref=e61]:
+        - cell "Quality Engineer" [ref=e62]
+        - cell "Testing systems and validating workflows" [ref=e63]
+  - heading "Business Use CaseAnchor" [level=2] [ref=e64]:
+    - text: Business Use Case
+    - link "Anchor" [ref=e65] [cursor=pointer]:
+      - /url: "#business-use-case"
+      - text: 
+  - paragraph [ref=e66]:
+    - strong [ref=e67]: "Scenario: Seasonal Produce Promotion at FreshMart Grocery"
+  - paragraph [ref=e68]: "FreshMart, a regional grocery chain with 50 stores, wants to launch a summer berry promotion. Here’s how the merchandising lifecycle plays out:"
+  - heading "Planning Phase (8 weeks before promotion)Anchor" [level=3] [ref=e69]:
+    - text: Planning Phase (8 weeks before promotion)
+    - link "Anchor" [ref=e70] [cursor=pointer]:
+      - /url: "#planning-phase-8-weeks-before-promotion"
+      - text: 
+  - list [ref=e71]:
+    - listitem [ref=e72]: The Category Manager analyzes historical sales data from previous summers
+    - listitem [ref=e73]: Identifies that strawberries, blueberries, and raspberries have highest demand in June-July
+    - listitem [ref=e74]: "Sets target: 25% increase in berry category sales compared to last year"
+    - listitem [ref=e75]: Works with Pricing Analyst to determine promotional pricing (20% off regular price)
+  - heading "Sourcing Phase (6 weeks before)Anchor" [level=3] [ref=e76]:
+    - text: Sourcing Phase (6 weeks before)
+    - link "Anchor" [ref=e77] [cursor=pointer]:
+      - /url: "#sourcing-phase-6-weeks-before"
+      - text: 
+  - list [ref=e78]:
+    - listitem [ref=e79]: Buyer contacts approved berry suppliers to secure volume commitments
+    - listitem [ref=e80]: Negotiates pricing based on projected volumes
+    - listitem [ref=e81]: Ensures suppliers can meet quality standards and delivery schedules
+  - heading "Distribution Phase (2 weeks before)Anchor" [level=3] [ref=e82]:
+    - text: Distribution Phase (2 weeks before)
+    - link "Anchor" [ref=e83] [cursor=pointer]:
+      - /url: "#distribution-phase-2-weeks-before"
+      - text: 
+  - list [ref=e84]:
+    - listitem [ref=e85]: Supply Chain Manager coordinates delivery schedules from suppliers to distribution centers
+    - listitem [ref=e86]: Plans store-level allocations based on each store’s historical berry sales
+    - listitem [ref=e87]: Ensures cold chain integrity throughout transportation
+  - heading "Execution Phase (Promotion start date)Anchor" [level=3] [ref=e88]:
+    - text: Execution Phase (Promotion start date)
+    - link "Anchor" [ref=e89] [cursor=pointer]:
+      - /url: "#execution-phase-promotion-start-date"
+      - text: 
+  - list [ref=e90]:
+    - listitem [ref=e91]: Store teams receive planograms showing exact shelf placement for berries
+    - listitem [ref=e92]: Products are placed in high-visibility produce section areas
+    - listitem [ref=e93]: Promotional signage is displayed at point of sale
+  - heading "Monitoring Phase (During promotion)Anchor" [level=3] [ref=e94]:
+    - text: Monitoring Phase (During promotion)
+    - link "Anchor" [ref=e95] [cursor=pointer]:
+      - /url: "#monitoring-phase-during-promotion"
+      - text: 
+  - list [ref=e96]:
+    - listitem [ref=e97]: Daily sales reports track performance against targets
+    - listitem [ref=e98]: Inventory levels monitored to prevent stockouts
+    - listitem [ref=e99]: Customer feedback collected through store managers
+  - heading "Optimization Phase (Mid-promotion adjustment)Anchor" [level=3] [ref=e100]:
+    - text: Optimization Phase (Mid-promotion adjustment)
+    - link "Anchor" [ref=e101] [cursor=pointer]:
+      - /url: "#optimization-phase-mid-promotion-adjustment"
+      - text: 
+  - list [ref=e102]:
+    - listitem [ref=e103]: Data shows raspberries underperforming while blueberries exceeding targets
+    - listitem [ref=e104]: "Category Manager adjusts ordering: reduce raspberry volumes, increase blueberry allocations"
+    - listitem [ref=e105]: Pricing Analyst recommends flash sale on raspberries to move inventory
+  - paragraph [ref=e106]:
+    - strong [ref=e107]: "Outcome:"
+    - text: The promotion achieves 28% increase in berry category sales, exceeding the 25% target.
+  - heading "Users InvolvedAnchor" [level=2] [ref=e108]:
+    - text: Users Involved
+    - link "Anchor" [ref=e109] [cursor=pointer]:
+      - /url: "#users-involved"
+      - text: 
+  - heading "Merchandising RolesAnchor" [level=3] [ref=e110]:
+    - text: Merchandising Roles
+    - link "Anchor" [ref=e111] [cursor=pointer]:
+      - /url: "#merchandising-roles"
+      - text: 
+  - paragraph [ref=e112]:
+    - strong [ref=e113]: Merchandising Director
+  - list [ref=e114]:
+    - listitem [ref=e115]: Sets overall merchandising strategy
+    - listitem [ref=e116]: Approves category plans and budgets
+    - listitem [ref=e117]: Reports to executive leadership on performance
+  - paragraph [ref=e118]:
+    - strong [ref=e119]: Category Manager
+  - list [ref=e120]:
+    - listitem [ref=e121]: Owns specific product categories (e.g., Produce, Dairy, Dry Grocery)
+    - listitem [ref=e122]: Develops assortment strategies
+    - listitem [ref=e123]: Analyzes category performance metrics
+    - listitem [ref=e124]: Makes recommendations on product additions/deletions
+  - paragraph [ref=e125]:
+    - strong [ref=e126]: Buyer
+  - list [ref=e127]:
+    - listitem [ref=e128]: Executes supplier negotiations
+    - listitem [ref=e129]: Creates and manages purchase orders
+    - listitem [ref=e130]: Monitors supplier performance
+    - listitem [ref=e131]: Resolves supply issues
+  - paragraph [ref=e132]:
+    - strong [ref=e133]: Pricing Analyst
+  - list [ref=e134]:
+    - listitem [ref=e135]: Conducts competitive price analysis
+    - listitem [ref=e136]: Develops pricing recommendations
+    - listitem [ref=e137]: Models price elasticity and promotion effectiveness
+    - listitem [ref=e138]: Maintains pricing systems and rules
+  - heading "Store Operations RolesAnchor" [level=3] [ref=e139]:
+    - text: Store Operations Roles
+    - link "Anchor" [ref=e140] [cursor=pointer]:
+      - /url: "#store-operations-roles"
+      - text: 
+  - paragraph [ref=e141]:
+    - strong [ref=e142]: Store Manager
+  - list [ref=e143]:
+    - listitem [ref=e144]: Ensures merchandising plans are executed correctly
+    - listitem [ref=e145]: Manages store-level inventory
+    - listitem [ref=e146]: Reports issues and opportunities to merchandising team
+    - listitem [ref=e147]: Leads store team on planogram compliance
+  - paragraph [ref=e148]:
+    - strong [ref=e149]: Department Manager (e.g., Produce Manager)
+  - list [ref=e150]:
+    - listitem [ref=e151]: Implements category-specific merchandising directives
+    - listitem [ref=e152]: Manages department-level staffing and tasks
+    - listitem [ref=e153]: Ensures product quality and freshness standards
+    - listitem [ref=e154]: Handles customer concerns at department level
+  - heading "IT and Quality RolesAnchor" [level=3] [ref=e155]:
+    - text: IT and Quality Roles
+    - link "Anchor" [ref=e156] [cursor=pointer]:
+      - /url: "#it-and-quality-roles"
+      - text: 
+  - paragraph [ref=e157]:
+    - strong [ref=e158]: Quality Engineer
+  - list [ref=e159]:
+    - listitem [ref=e160]: Tests merchandising system workflows
+    - listitem [ref=e161]: Validates data accuracy across systems
+    - listitem [ref=e162]: Automates regression testing for pricing and inventory changes
+    - listitem [ref=e163]: Ensures integration points function correctly
+  - paragraph [ref=e164]:
+    - strong [ref=e165]: Business Analyst
+  - list [ref=e166]:
+    - listitem [ref=e167]: Documents merchandising processes and requirements
+    - listitem [ref=e168]: Bridges business needs with technical solutions
+    - listitem [ref=e169]: Supports system enhancements and changes
+  - paragraph [ref=e170]:
+    - strong [ref=e171]: Data Analyst
+  - list [ref=e172]:
+    - listitem [ref=e173]: Builds reports and dashboards for merchandising metrics
+    - listitem [ref=e174]: Analyzes trends and patterns in sales data
+    - listitem [ref=e175]: Supports data-driven decision making
+  - heading "Tools & Technologies UsedAnchor" [level=2] [ref=e176]:
+    - text: Tools & Technologies Used
+    - link "Anchor" [ref=e177] [cursor=pointer]:
+      - /url: "#tools--technologies-used"
+      - text: 
+  - heading "Core Merchandising SystemsAnchor" [level=3] [ref=e178]:
+    - text: Core Merchandising Systems
+    - link "Anchor" [ref=e179] [cursor=pointer]:
+      - /url: "#core-merchandising-systems"
+      - text: 
+  - paragraph [ref=e180]:
+    - strong [ref=e181]: Merchandise Management System (MMS)
+  - list [ref=e182]:
+    - listitem [ref=e183]: Central system for managing product information, pricing, and promotions
+    - listitem [ref=e184]: "Examples: SAP Merchandise Management, Oracle Retail, JDA (Blue Yonder)"
+    - listitem [ref=e185]: "Key functions: Item setup, pricing, promotion management, purchase orders"
+  - paragraph [ref=e186]:
+    - strong [ref=e187]: Category Management Software
+  - list [ref=e188]:
+    - listitem [ref=e189]: Analytics tools for category performance and space optimization
+    - listitem [ref=e190]: "Examples: Nielsen Spaceman, JDA Space Planning, Apollo"
+    - listitem [ref=e191]: "Key functions: Planogram creation, space optimization, category analytics"
+  - paragraph [ref=e192]:
+    - strong [ref=e193]: Pricing Optimization Tools
+  - list [ref=e194]:
+    - listitem [ref=e195]: AI/ML-based pricing recommendation engines
+    - listitem [ref=e196]: "Examples: Revionics, PriceEdge, PROS"
+    - listitem [ref=e197]: "Key functions: Competitive price monitoring, price elasticity modeling, promotion optimization"
+  - heading "Supporting SystemsAnchor" [level=3] [ref=e198]:
+    - text: Supporting Systems
+    - link "Anchor" [ref=e199] [cursor=pointer]:
+      - /url: "#supporting-systems"
+      - text: 
+  - paragraph [ref=e200]:
+    - strong [ref=e201]: Enterprise Resource Planning (ERP)
+  - list [ref=e202]:
+    - listitem [ref=e203]: Financial and operational backbone
+    - listitem [ref=e204]: "Examples: SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics"
+    - listitem [ref=e205]: "Integration points: Finance, procurement, inventory management"
+  - paragraph [ref=e206]:
+    - strong [ref=e207]: Supply Chain Management (SCM)
+  - list [ref=e208]:
+    - listitem [ref=e209]: Manages flow of goods from suppliers to stores
+    - listitem [ref=e210]: "Examples: Blue Yonder, Manhattan Associates, Kinaxis"
+    - listitem [ref=e211]: "Key functions: Demand forecasting, replenishment, logistics management"
+  - paragraph [ref=e212]:
+    - strong [ref=e213]: Point of Sale (POS)
+  - list [ref=e214]:
+    - listitem [ref=e215]: Transaction processing at checkout
+    - listitem [ref=e216]: "Examples: NCR Silver, Toshiba Global Commerce, Oracle MICROS"
+    - listitem [ref=e217]: "Integration points: Real-time sales data, inventory updates, loyalty programs"
+  - paragraph [ref=e218]:
+    - strong [ref=e219]: Business Intelligence (BI) Platforms
+  - list [ref=e220]:
+    - listitem [ref=e221]: Reporting and analytics dashboards
+    - listitem [ref=e222]: "Examples: Tableau, Power BI, Qlik, Looker"
+    - listitem [ref=e223]: "Key functions: Sales reporting, KPI dashboards, trend analysis"
+  - heading "Data and IntegrationAnchor" [level=3] [ref=e224]:
+    - text: Data and Integration
+    - link "Anchor" [ref=e225] [cursor=pointer]:
+      - /url: "#data-and-integration"
+      - text: 
+  - paragraph [ref=e226]:
+    - strong [ref=e227]: Product Information Management (PIM)
+  - list [ref=e228]:
+    - listitem [ref=e229]: Central repository for product attributes and specifications
+    - listitem [ref=e230]: Ensures consistent product data across channels
+  - paragraph [ref=e231]:
+    - strong [ref=e232]: Electronic Data Interchange (EDI)
+  - list [ref=e233]:
+    - listitem [ref=e234]: Standardized electronic communication with suppliers
+    - listitem [ref=e235]: Used for purchase orders, advance ship notices, invoices
+  - paragraph [ref=e236]:
+    - strong [ref=e237]: Application Programming Interfaces (APIs)
+  - list [ref=e238]:
+    - listitem [ref=e239]: Enable real-time integration between systems
+    - listitem [ref=e240]: Support omnichannel merchandising (online + in-store)
+  - heading "Quality Engineering ToolsAnchor" [level=3] [ref=e241]:
+    - text: Quality Engineering Tools
+    - link "Anchor" [ref=e242] [cursor=pointer]:
+      - /url: "#quality-engineering-tools"
+      - text: 
+  - paragraph [ref=e243]:
+    - strong [ref=e244]: Test Automation Frameworks
+  - list [ref=e245]:
+    - listitem [ref=e246]: Selenium, Playwright for UI testing
+    - listitem [ref=e247]: REST Assured, Postman for API testing
+    - listitem [ref=e248]: Custom frameworks for merchandising workflow validation
+  - paragraph [ref=e249]:
+    - strong [ref=e250]: Test Data Management
+  - list [ref=e251]:
+    - listitem [ref=e252]: Tools for creating and managing test data scenarios
+    - listitem [ref=e253]: Data masking for production-like test environments
+  - paragraph [ref=e254]:
+    - strong [ref=e255]: Performance Testing
+  - list [ref=e256]:
+    - listitem [ref=e257]: Load testing for peak periods (e.g., Black Friday, holiday seasons)
+    - listitem [ref=e258]: "Tools: JMeter, LoadRunner, Gatling"
+  - heading "Chapter SummaryAnchor" [level=2] [ref=e259]:
+    - text: Chapter Summary
+    - link "Anchor" [ref=e260] [cursor=pointer]:
+      - /url: "#chapter-summary"
+      - text: 
+  - paragraph [ref=e261]: Merchandising is the strategic heart of grocery retail operations. It connects customer needs with product offerings through a continuous cycle of planning, execution, and optimization. Success requires coordination across multiple stakeholders, supported by sophisticated technology systems.
+  - paragraph [ref=e262]: "For IT and Quality Engineering professionals, understanding merchandising concepts is essential because:"
+  - list [ref=e263]:
+    - listitem [ref=e264]: Systems must accurately reflect complex business rules
+    - listitem [ref=e265]: Data integrity directly impacts financial performance
+    - listitem [ref=e266]: Integration points create testing complexity
+    - listitem [ref=e267]: Changes can have cascading effects across the organization
+  - heading "Chapter ChecklistAnchor" [level=2] [ref=e268]:
+    - text: Chapter Checklist
+    - link "Anchor" [ref=e269] [cursor=pointer]:
+      - /url: "#chapter-checklist"
+      - text: 
+  - paragraph [ref=e270]: "Use this checklist to verify your understanding:"
+  - list [ref=e271]:
+    - listitem [ref=e272]:
+      - checkbox [disabled] [ref=e273]
+      - text: Can you define merchandising in your own words?
+    - listitem [ref=e274]:
+      - checkbox [disabled] [ref=e275]
+      - text: Can you describe the six stages of the merchandising lifecycle?
+    - listitem [ref=e276]:
+      - checkbox [disabled] [ref=e277]
+      - text: Do you understand the key stakeholders and their roles?
+    - listitem [ref=e278]:
+      - checkbox [disabled] [ref=e279]
+      - text: Can you trace how a promotion flows through the organization?
+    - listitem [ref=e280]:
+      - checkbox [disabled] [ref=e281]
+      - text: Are you familiar with the major merchandising systems?
+    - listitem [ref=e282]:
+      - checkbox [disabled] [ref=e283]
+      - text: Do you understand where Quality Engineering fits into merchandising?
+  - heading "ExerciseAnchor" [level=2] [ref=e284]:
+    - text: Exercise
+    - link "Anchor" [ref=e285] [cursor=pointer]:
+      - /url: "#exercise"
+      - text: 
+  - paragraph [ref=e286]:
+    - strong [ref=e287]: "Scenario Analysis:"
+  - paragraph [ref=e288]: "Your grocery client is launching a new private label product line. Based on this chapter:"
+  - list [ref=e289]:
+    - listitem [ref=e290]: Identify which stakeholders would be involved in this initiative
+    - listitem [ref=e291]: Map out which stages of the merchandising lifecycle would apply
+    - listitem [ref=e292]: List which systems would need to be updated or configured
+    - listitem [ref=e293]: Describe what testing scenarios a Quality Engineer should consider
+  - paragraph [ref=e294]:
+    - strong [ref=e295]: "Deliverable:"
+    - text: Create a one-page stakeholder map showing roles, responsibilities, and system touchpoints for the private label launch.
+  - separator [ref=e296]
+  - paragraph [ref=e297]:
+    - emphasis [ref=e298]: End of Chapter 1
+```
