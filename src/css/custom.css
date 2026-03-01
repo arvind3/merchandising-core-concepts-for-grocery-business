@@ -29,31 +29,124 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Custom styles for book content */
-.markdown h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  text-align: center;
 }
 
-.markdown h2 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+.hero-section strong {
+  color: white !important;
 }
 
-.markdown h3 {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
-}
-
-/* Chapter navigation */
-.chapter-nav {
+.hero-section div {
   display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--ifm-color-emphasis-300);
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Chapter Grid */
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.chapter-grid > div {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-primary);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chapter-grid > div:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.chapter-grid h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--ifm-color-primary);
+}
+
+.chapter-grid p {
+  margin-bottom: 1rem;
+  color: var(--ifm-font-color-base);
+}
+
+.chapter-grid a {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.chapter-grid a:hover {
+  text-decoration: underline;
+}
+
+/* Quick Start Section */
+.quick-start {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.quick-start strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary);
+}
+
+/* Book Info */
+.book-info {
+  background: var(--ifm-color-primary-contrast-background);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-primary);
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  text-align: center;
+}
+
+.book-info strong {
+  color: var(--ifm-color-primary);
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  text-align: left;
+}
+
+table th {
+  background: var(--ifm-color-emphasis-200);
+  font-weight: 600;
+}
+
+table tr:nth-child(even) {
+  background: var(--ifm-color-emphasis-100);
 }
 
 /* Business use case boxes */
@@ -65,16 +158,99 @@
   border-radius: 4px;
 }
 
-/* Role tables */
-.role-table {
-  width: 100%;
-  margin: 1rem 0;
-}
-
 /* Checklist styling */
 .checklist-item {
   margin: 0.5rem 0;
   padding: 0.5rem;
   background: var(--ifm-color-emphasis-100);
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checklist-item::before {
+  content: '☐';
+  font-size: 1.2rem;
+}
+
+/* Callout/TIP boxes */
+.theme-admonition {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+}
+
+/* Navigation improvements */
+.pagination-nav__link {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-contrast-background);
+}
+
+/* Markdown content improvements */
+.markdown h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.markdown h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ifm-color-emphasis-300);
+}
+
+.markdown h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown > p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Code blocks */
+code {
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+}
+
+pre code {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+
+  .chapter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .book-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .markdown h1 {
+    font-size: 2rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.5rem;
+  }
 }
