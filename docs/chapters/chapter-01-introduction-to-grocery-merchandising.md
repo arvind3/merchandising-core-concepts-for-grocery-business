@@ -1,241 +1,91 @@
 # Chapter 1: Introduction to Grocery Merchandising
 
-## Concept Explanation
+Merchandising in grocery is a capital-allocation discipline disguised as shelf presentation. Every assortment, price, display, and replenishment decision competes for limited working capital, finite shelf space, and shopper attention that lasts only a few seconds per aisle.
 
-**Merchandising** in grocery retail refers to the strategic planning, execution, and management of product offerings to maximize sales and customer satisfaction. It encompasses everything from selecting which products to stock, how to price them, where to place them in the store, and when to promote them.
+## 1. Concept Explanation
 
-At its core, merchandising answers three fundamental questions:
-- **What** products should we offer?
-- **How** should we price and present them?
-- **When** should we promote or adjust them?
+A practical merchandising operating model has five connected decisions:
 
-### The Merchandising Lifecycle
+1. **Assortment**: which SKUs are listed, delisted, or seasonally activated.
+2. **Space**: where products are placed and how many facings they receive.
+3. **Price**: everyday shelf price and price architecture across value tiers.
+4. **Promotion**: temporary offers designed for traffic, trial, or basket expansion.
+5. **Replenishment**: inventory policy that protects availability without inflating waste.
 
-The merchandising lifecycle is a continuous cycle that includes:
+These decisions are not independent. A deep promotion without adjusted replenishment creates out-of-stocks. A premium assortment without clear price gaps confuses shoppers. A revised planogram without store execution controls collapses expected uplift.
 
-1. **Planning** â€" Defining product assortment, pricing strategies, and promotional calendars
-2. **Sourcing** â€" Working with suppliers to procure products
-3. **Distribution** â€" Moving products from suppliers to distribution centers to stores
-4. **Execution** â€" Placing products on shelves according to planograms
-5. **Monitoring** â€" Tracking sales, inventory levels, and customer response
-6. **Optimization** â€" Adjusting strategies based on performance data
+## 2. Why It Matters to the Business
 
-### Key Stakeholders
+Grocery economics are unforgiving: margin rates are narrow, shrink risk is real, and demand changes quickly with weather, holidays, and local events. Strong merchandising is the mechanism that converts shopper demand into profitable, repeatable transactions.
 
-Merchandising involves multiple stakeholders across the organization:
+At enterprise level, leadership typically tracks a balanced scorecard:
 
-| Stakeholder | Primary Responsibility |
-|-------------|----------------------|
-| Merchandising Manager | Overall strategy and product assortment |
-| Category Manager | Specific product category performance |
-| Buyer | Supplier negotiations and purchase orders |
-| Pricing Analyst | Price optimization and competitive analysis |
-| Store Manager | In-store execution and compliance |
-| Supply Chain Manager | Inventory flow and replenishment |
-| Quality Engineer | Testing systems and validating workflows |
+| Metric | What it signals |
+|---|---|
+| Net sales growth | Demand capture and category momentum |
+| Gross margin % and $ | Pricing quality and mix management |
+| Inventory turns | Capital efficiency |
+| GMROI | Margin return relative to inventory investment |
+| On-shelf availability (OSA) | Execution quality and demand service |
+| Basket size and attach | Cross-category effectiveness |
 
-## Business Use Case
+A mature merchandising organization manages these metrics together, not in silos.
 
-**Scenario: Seasonal Produce Promotion at FreshMart Grocery**
+## 3. Example Scenario: Regional Chain Turnaround
 
-FreshMart, a regional grocery chain with 50 stores, wants to launch a summer berry promotion. Here's how the merchandising lifecycle plays out:
+A 120-store regional grocer faced flat sales despite stable traffic. Analysis showed three structural issues:
 
-### Planning Phase (8 weeks before promotion)
-- The Category Manager analyzes historical sales data from previous summers
-- Identifies that strawberries, blueberries, and raspberries have highest demand in June-July
-- Sets target: 25% increase in berry category sales compared to last year
-- Works with Pricing Analyst to determine promotional pricing (20% off regular price)
+- Assortments were expanded every season but delisting discipline was weak.
+- Promotions were heavily discount-led, with poor post-event review.
+- Planogram compliance in top traffic stores was below 80%.
 
-### Sourcing Phase (6 weeks before)
-- Buyer contacts approved berry suppliers to secure volume commitments
-- Negotiates pricing based on projected volumes
-- Ensures suppliers can meet quality standards and delivery schedules
+### Intervention Design
 
-### Distribution Phase (2 weeks before)
-- Supply Chain Manager coordinates delivery schedules from suppliers to distribution centers
-- Plans store-level allocations based on each store's historical berry sales
-- Ensures cold chain integrity throughout transportation
+The merchandising council implemented a 6-month program:
 
-### Execution Phase (Promotion start date)
-- Store teams receive planograms showing exact shelf placement for berries
-- Products are placed in high-visibility produce section areas
-- Promotional signage is displayed at point of sale
+- Category roles were reset (traffic, transaction, profit, image).
+- A KVI list was formalized for price governance.
+- Planogram compliance audits were moved from monthly to weekly in top 20 stores.
+- Promotion planning required pre-event forecast and post-event margin review.
 
-### Monitoring Phase (During promotion)
-- Daily sales reports track performance against targets
-- Inventory levels monitored to prevent stockouts
-- Customer feedback collected through store managers
+### Observed Results (Illustrative)
 
-### Optimization Phase (Mid-promotion adjustment)
-- Data shows raspberries underperforming while blueberries exceeding targets
-- Category Manager adjusts ordering: reduce raspberry volumes, increase blueberry allocations
-- Pricing Analyst recommends flash sale on raspberries to move inventory
+| KPI | Before | After 6 Months |
+|---|---:|---:|
+| Comparable sales growth | 0.8% | 3.4% |
+| Gross margin rate | 24.9% | 25.6% |
+| Planogram compliance | 79% | 92% |
+| Inventory turns | 13.1x | 14.6x |
 
-**Outcome:** The promotion achieves 28% increase in berry category sales, exceeding the 25% target.
+The gains came from process discipline, not one dramatic initiative.
 
-## Users Involved
+## 4. Data Interpretation
 
-### Merchandising Roles
+The chain's leadership team initially attributed weak performance to inflation and competition. Basket-level diagnostics told a different story:
 
-**Merchandising Director**
-- Sets overall merchandising strategy
-- Approves category plans and budgets
-- Reports to executive leadership on performance
+- **Traffic was stable**: customer visits were not the primary constraint.
+- **Conversion inside categories was inconsistent**: high-traffic categories had poor shelf clarity.
+- **Promotional lift was overstated**: baseline sales and cannibalization were not separated.
 
-**Category Manager**
-- Owns specific product categories (e.g., Produce, Dairy, Dry Grocery)
-- Develops assortment strategies
-- Analyzes category performance metrics
-- Makes recommendations on product additions/deletions
+The key analytical correction was moving from SKU-only reporting to a joint view of:
 
-**Buyer**
-- Executes supplier negotiations
-- Creates and manages purchase orders
-- Monitors supplier performance
-- Resolves supply issues
+- Category role
+- Store cluster behavior
+- Basket attach patterns
+- Margin-after-promo
 
-**Pricing Analyst**
-- Conducts competitive price analysis
-- Develops pricing recommendations
-- Models price elasticity and promotion effectiveness
-- Maintains pricing systems and rules
+Once decision makers saw performance in this integrated view, investment priorities changed quickly.
 
-### Store Operations Roles
+## 5. Visual Model
 
-**Store Manager**
-- Ensures merchandising plans are executed correctly
-- Manages store-level inventory
-- Reports issues and opportunities to merchandising team
-- Leads store team on planogram compliance
+![Merchandising Operating Loop](/assets/diagrams/merchandising_operating_loop.png)
 
-**Department Manager (e.g., Produce Manager)**
-- Implements category-specific merchandising directives
-- Manages department-level staffing and tasks
-- Ensures product quality and freshness standards
-- Handles customer concerns at department level
+*Figure 1.1. Merchandising decisions operate as a closed loop from strategy to execution and review.*
 
-### IT and Quality Roles
+## 6. Key Takeaways
 
-**Quality Engineer**
-- Tests merchandising system workflows
-- Validates data accuracy across systems
-- Automates regression testing for pricing and inventory changes
-- Ensures integration points function correctly
-
-**Business Analyst**
-- Documents merchandising processes and requirements
-- Bridges business needs with technical solutions
-- Supports system enhancements and changes
-
-**Data Analyst**
-- Builds reports and dashboards for merchandising metrics
-- Analyzes trends and patterns in sales data
-- Supports data-driven decision making
-
-## Tools & Technologies Used
-
-### Core Merchandising Systems
-
-**Merchandise Management System (MMS)**
-- Central system for managing product information, pricing, and promotions
-- Examples: SAP Merchandise Management, Oracle Retail, JDA (Blue Yonder)
-- Key functions: Item setup, pricing, promotion management, purchase orders
-
-**Category Management Software**
-- Analytics tools for category performance and space optimization
-- Examples: Nielsen Spaceman, JDA Space Planning, Apollo
-- Key functions: Planogram creation, space optimization, category analytics
-
-**Pricing Optimization Tools**
-- AI/ML-based pricing recommendation engines
-- Examples: Revionics, PriceEdge, PROS
-- Key functions: Competitive price monitoring, price elasticity modeling, promotion optimization
-
-### Supporting Systems
-
-**Enterprise Resource Planning (ERP)**
-- Financial and operational backbone
-- Examples: SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics
-- Integration points: Finance, procurement, inventory management
-
-**Supply Chain Management (SCM)**
-- Manages flow of goods from suppliers to stores
-- Examples: Blue Yonder, Manhattan Associates, Kinaxis
-- Key functions: Demand forecasting, replenishment, logistics management
-
-**Point of Sale (POS)**
-- Transaction processing at checkout
-- Examples: NCR Silver, Toshiba Global Commerce, Oracle MICROS
-- Integration points: Real-time sales data, inventory updates, loyalty programs
-
-**Business Intelligence (BI) Platforms**
-- Reporting and analytics dashboards
-- Examples: Tableau, Power BI, Qlik, Looker
-- Key functions: Sales reporting, KPI dashboards, trend analysis
-
-### Data and Integration
-
-**Product Information Management (PIM)**
-- Central repository for product attributes and specifications
-- Ensures consistent product data across channels
-
-**Electronic Data Interchange (EDI)**
-- Standardized electronic communication with suppliers
-- Used for purchase orders, advance ship notices, invoices
-
-**Application Programming Interfaces (APIs)**
-- Enable real-time integration between systems
-- Support omnichannel merchandising (online + in-store)
-
-### Quality Engineering Tools
-
-**Test Automation Frameworks**
-- Selenium, Playwright for UI testing
-- REST Assured, Postman for API testing
-- Custom frameworks for merchandising workflow validation
-
-**Test Data Management**
-- Tools for creating and managing test data scenarios
-- Data masking for production-like test environments
-
-**Performance Testing**
-- Load testing for peak periods (e.g., Black Friday, holiday seasons)
-- Tools: JMeter, LoadRunner, Gatling
-
-## Chapter Summary
-
-Merchandising is the strategic heart of grocery retail operations. It connects customer needs with product offerings through a continuous cycle of planning, execution, and optimization. Success requires coordination across multiple stakeholders, supported by sophisticated technology systems.
-
-For IT and Quality Engineering professionals, understanding merchandising concepts is essential because:
-- Systems must accurately reflect complex business rules
-- Data integrity directly impacts financial performance
-- Integration points create testing complexity
-- Changes can have cascading effects across the organization
-
-## Chapter Checklist
-
-Use this checklist to verify your understanding:
-
-- [ ] Can you define merchandising in your own words?
-- [ ] Can you describe the six stages of the merchandising lifecycle?
-- [ ] Do you understand the key stakeholders and their roles?
-- [ ] Can you trace how a promotion flows through the organization?
-- [ ] Are you familiar with the major merchandising systems?
-- [ ] Do you understand where Quality Engineering fits into merchandising?
-
-## Exercise
-
-**Scenario Analysis:**
-
-Your grocery client is launching a new private label product line. Based on this chapter:
-
-1. Identify which stakeholders would be involved in this initiative
-2. Map out which stages of the merchandising lifecycle would apply
-3. List which systems would need to be updated or configured
-4. Describe what testing scenarios a Quality Engineer should consider
-
-**Deliverable:** Create a one-page stakeholder map showing roles, responsibilities, and system touchpoints for the private label launch.
-
----
-
-*End of Chapter 1*
+- Merchandising is a system, not a sequence of isolated tasks.
+- Capital efficiency (turns, GMROI) must be evaluated with availability and margin.
+- Execution reliability in stores is as important as central planning.
+- Promotion quality depends on disciplined pre-event and post-event analytics.
+- The strongest organizations align category, pricing, supply chain, and store operations to one scorecard.

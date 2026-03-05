@@ -1,44 +1,104 @@
-version: 1
-name: production-line-v1
-objective: deliver long-form technical manuscripts via staged multi-agent orchestration
+version: 2
+name: grocery-merchandising-book-pipeline
+objective: transform draft content into a publishable professional non-fiction grocery merchandising book
+
 stages:
-  - id: brief
-    owner: program_manager
-    outputs: [book_brief.md, acceptance_criteria.yaml]
-    gate: deterministic
-  - id: evidence
-    owner: research_synthesis
-    outputs: [chapter_evidence/*.md, source_index.csv]
-    gate: deterministic
-  - id: architecture
-    owner: technical_architect
-    outputs: [chapter_blueprints/*.md, diagram_specs/*.md]
-    gate: deterministic
-  - id: draft
-    owner: author
-    outputs: [chapters/*.md]
-    gate: non_deterministic
-  - id: review
-    owner: review_triad
-    outputs: [reviews/*.md]
-    gate: deterministic
-  - id: revise
-    owner: author
-    outputs: [chapters_v2/*.md]
-    gate: non_deterministic
-  - id: visuals
-    owner: visual_intelligence
-    outputs: [assets/diagrams/*]
-    gate: deterministic
-  - id: qa
-    owner: qa_eval
-    outputs: [results/quality_gate.md, results/quality_gate.csv]
-    gate: deterministic
-  - id: publish
-    owner: publishing
-    outputs: [release/package_manifest.yaml]
-    gate: deterministic
+  - id: research
+    order: 1
+    owner: research_agent
+    responsibilities:
+      - deepen conceptual accuracy
+      - add grocery industry operating context
+      - prepare outlines, examples, and data references
+    inputs:
+      - existing chapter drafts
+    outputs:
+      - work/agent-outputs/01-research-notes.md
+
+  - id: authoring
+    order: 2
+    owner: authoring_agent
+    responsibilities:
+      - rewrite chapters with structured narrative
+      - include concept, business value, scenario, data interpretation, key takeaways
+    inputs:
+      - work/agent-outputs/01-research-notes.md
+    outputs:
+      - docs/chapters/*.md
+      - work/agent-outputs/02-authoring-summary.md
+
+  - id: visualization
+    order: 3
+    owner: visualization_agent
+    responsibilities:
+      - generate charts, diagrams, and graphs
+      - provide captions and interpretation context
+    inputs:
+      - docs/chapters/*.md
+      - work/agent-outputs/02-authoring-summary.md
+    outputs:
+      - static/assets/graphs/*
+      - static/assets/diagrams/*
+      - work/agent-outputs/03-visualization-register.md
+
+  - id: technical_editing
+    order: 4
+    owner: technical_editor_agent
+    responsibilities:
+      - improve structure and readability
+      - remove repetitive and generic phrasing
+      - align terminology across chapters
+    inputs:
+      - docs/chapters/*.md
+      - work/agent-outputs/03-visualization-register.md
+    outputs:
+      - work/agent-outputs/04-technical-editing-report.md
+
+  - id: proofreading
+    order: 5
+    owner: proofreading_agent
+    responsibilities:
+      - correct grammar, punctuation, and formatting
+      - remove redundancy and improve clarity
+    inputs:
+      - docs/chapters/*.md
+    outputs:
+      - work/agent-outputs/05-proofreading-checklist.md
+
+  - id: publishing
+    order: 6
+    owner: publishing_agent
+    responsibilities:
+      - optimize markdown and navigation
+      - ensure GitHub Pages rendering quality
+      - polish homepage and project README
+    inputs:
+      - docs/**
+      - static/assets/**
+    outputs:
+      - README.md
+      - docusaurus.config.ts
+      - sidebars.ts
+      - src/pages/index.tsx
+      - src/pages/index.module.css
+      - src/css/custom.css
+      - work/agent-outputs/06-publishing-report.md
+
+  - id: quality_assurance
+    order: 7
+    owner: quality_assurance_agent
+    responsibilities:
+      - validate content depth and visual quality
+      - verify structure and navigation
+      - run build and reader simulation checks
+    inputs:
+      - all prior stage outputs
+    outputs:
+      - work/agent-outputs/07-qa-report.md
+
 rules:
-  - no stage skip
-  - all gates must pass before promotion
-  - deterministic artifacts required for audit trail
+  - strict_sequential_execution
+  - no_stage_skipping
+  - stage_output_required_for_next_stage
+  - publishing_allowed_only_after_proofreading
+  - qa_signoff_required_for_release

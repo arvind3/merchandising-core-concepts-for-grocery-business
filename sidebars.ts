@@ -4,7 +4,7 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: '📚 Chapters',
+      label: 'Chapters',
       items: [
         'chapters/chapter-01-introduction-to-grocery-merchandising',
         'chapters/chapter-02-product-hierarchy-and-categorization',
@@ -20,12 +20,8 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '📖 Resources',
-      items: [
-        'resources/glossary',
-        'resources/references',
-        'resources/about-author',
-      ],
+      label: 'Resources',
+      items: ['resources/glossary', 'resources/references', 'resources/about-author'],
     },
   ],
 };

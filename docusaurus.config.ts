@@ -2,9 +2,9 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Merchandising Core Concepts for the Grocery Business',
-  tagline: 'A comprehensive guide for Quality Engineers and IT professionals',
-  favicon: 'img/favicon.ico',
+  title: 'Merchandising Core Concepts for Grocery Business',
+  tagline: 'Professional reference for grocery merchandising strategy and execution',
+  favicon: 'img/logo.svg',
 
   url: 'https://arvind3.github.io',
   baseUrl: '/merchandising-core-concepts-for-grocery-business/',
@@ -42,7 +42,7 @@ const config: Config = {
     navbar: {
       title: 'Merchandising Core Concepts',
       logo: {
-        alt: 'Merchandising Book Logo',
+        alt: 'Book Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -50,7 +50,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Chapters',
+          label: 'Book',
         },
         {
           href: 'https://github.com/arvind3/merchandising-core-concepts-for-grocery-business',
@@ -63,34 +63,23 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Book',
           items: [
-            {
-              label: 'Chapters',
-              to: '/',
-            },
+            { label: 'Chapter 1', to: '/chapters/chapter-01-introduction-to-grocery-merchandising' },
+            { label: 'References', to: '/resources/references' },
           ],
         },
         {
-          title: 'Community',
+          title: 'Project',
           items: [
             {
-              label: 'GitHub',
+              label: 'GitHub Repository',
               href: 'https://github.com/arvind3/merchandising-core-concepts-for-grocery-business',
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Factory Framework',
-              href: 'https://github.com/arvind3/factory',
-            },
-          ],
-        },
       ],
-      copyright: `Copyright Â© ${new Date().getFullYear()} Arvind Bhardwaj. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Arvind Bhardwaj. Built with Docusaurus.`,
     },
     prism: {
       theme: require('prism-react-renderer').themes.github,

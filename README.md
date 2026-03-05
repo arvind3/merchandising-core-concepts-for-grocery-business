@@ -1,145 +1,85 @@
-# Merchandising Core Concepts for the Grocery Business
+# Merchandising Core Concepts for Grocery Business
 
-**Interactive Docusaurus Book** built with the Multi-Agent Book Factory framework.
+A professional, publication-quality reference book on grocery merchandising strategy, execution, analytics, and systems integration.
 
-📖 **Live Book:** https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/
+Live site: [GitHub Pages](https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/)
 
-## About This Book
+## Table of Contents
 
-This book provides a comprehensive introduction to merchandising core concepts in the grocery retail industry, designed specifically for **Quality Engineers and IT professionals**.
+1. [Introduction to Grocery Merchandising](docs/chapters/chapter-01-introduction-to-grocery-merchandising.md)
+2. [Product Hierarchy and Categorization](docs/chapters/chapter-02-product-hierarchy-and-categorization.md)
+3. [Pricing Strategy and Promotion Management](docs/chapters/chapter-03-pricing-strategy-and-promotion-management.md)
+4. [Inventory Management and Replenishment](docs/chapters/chapter-04-inventory-management-and-replenishment.md)
+5. [Supplier Management and Procurement](docs/chapters/chapter-05-supplier-management-and-procurement.md)
+6. [Store Operations and Execution](docs/chapters/chapter-06-store-operations-and-execution.md)
+7. [Data and Analytics in Merchandising](docs/chapters/chapter-07-data-and-analytics-in-merchandising.md)
+8. [Technology Systems and Integration](docs/chapters/chapter-08-technology-systems-and-integration.md)
+9. [Quality Engineering in Merchandising](docs/chapters/chapter-09-quality-engineering-in-merchandising.md)
+10. [Future Trends and Digital Transformation](docs/chapters/chapter-10-future-trends-and-digital-transformation.md)
 
-### Target Audience
+## What This Book Covers
 
-- Quality Engineers and IT professionals new to grocery retail domain
-- DevOps and product teams supporting retail projects
-- Professionals needing clarity on business processes and workflows
-- Anyone wanting to understand roles, responsibilities, and systems in grocery merchandising
+- Category management and shelf optimization
+- Pricing architecture and promotion effectiveness
+- Inventory turns, service levels, and GMROI
+- Supplier governance and procurement controls
+- Store execution, planogram compliance, and layout performance
+- Basket analytics and cross-category growth
+- Merchandising systems integration and data contracts
+- Quality engineering practices for high-risk retail flows
 
-### Learning Objectives
+## Visual Assets
 
-By the end of this book, readers will:
-- Understand the end-to-end grocery merchandising lifecycle
-- Learn key business processes and workflows
-- Identify different business roles and their responsibilities
-- Gain basic exposure to major retail systems and technologies
-- Connect business concepts with testing and quality engineering activities
+Visual explanations are stored in:
 
-## Book Structure
+- `static/assets/graphs`
+- `static/assets/diagrams`
 
-Each chapter follows a consistent format:
-1. **Concept Explanation** – Clear definition in simple language
-2. **Business Use Case** – Real-world example from a grocery business
-3. **Users Involved** – Roles and responsibilities
-4. **Tools & Technologies Used** – Major systems, software, and platforms
+These are embedded throughout the chapters with caption and interpretation context.
 
-### Chapters
+## Multi-Agent Production Pipeline
 
-1. Introduction to Grocery Merchandising
-2. Product Hierarchy and Categorization
-3. Pricing Strategy and Promotion Management
-4. Inventory Management and Replenishment
-5. Supplier Management and Procurement
-6. Store Operations and Execution
-7. Data and Analytics in Merchandising
-8. Technology Systems and Integration
-9. Quality Engineering in Merchandising
-10. Future Trends and Digital Transformation
+Content was rebuilt through a structured, sequential seven-agent workflow, with intermediate artifacts in `work/agent-outputs`:
 
-## Development
+1. Research Agent
+2. Authoring Agent
+3. Visualization Agent
+4. Technical Editor Agent
+5. Proofreading Agent
+6. Publishing Agent
+7. Quality Assurance Agent
 
-### Prerequisites
+## Local Development
 
-- Node.js 22+ (see `.nvmrc`)
+Prerequisites:
+
+- Node.js 22+
 - npm
 
-### Local Development
+Commands:
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-
-# Open in browser
-# http://localhost:3000/merchandising-core-concepts-for-grocery-business/
-```
-
-### Build
-
-```bash
-# Production build
 npm run build
-
-# Serve production build locally
 npm run serve
 ```
 
-### Deploy to GitHub Pages
+## Publishing
+
+Deploy to GitHub Pages:
 
 ```bash
-# Deploy to gh-pages branch
 npm run gh:deploy
 ```
 
-## Architecture
+## Repository Structure
 
-This book is built using the **Multi-Agent Book Factory** framework from https://github.com/arvind3/factory
-
-### Agent Roles
-
-- **Program Manager** – Workflow orchestration and quality gates
-- **Research Synthesis** – Evidence gathering and source validation
-- **Technical Architect** – Chapter blueprints and structure
-- **Author** – Content drafting
-- **Review Triad** – Quality review and feedback
-- **Visual Intelligence** – Diagrams and visual assets
-- **QA Eval** – Final quality assessment
-- **Publishing** – Release and deployment
-
-### Workflow Stages
-
+```text
+/docs/chapters               Main manuscript chapters
+/docs/resources              Glossary, references, author note
+/static/assets/graphs        Quantitative charts
+/static/assets/diagrams      Concept and process diagrams
+/src/pages                   GitHub Pages landing page
+/work/agent-outputs          Pipeline handoff artifacts and QA notes
 ```
-brief → evidence → architecture → draft → review → revise → visuals → qa → publish
-```
-
-## Project Structure
-
-```
-merchandising-core-concepts-for-grocery-business/
-├── docs/
-│   ├── chapters/          # Chapter markdown files
-│   ├── resources/         # Glossary, references, about
-│   └── index.md           # Landing page
-├── src/
-│   └── css/
-│       └── custom.css     # Custom styles
-├── static/
-│   └── img/               # Static assets
-├── system/
-│   ├── agents/            # Agent definitions
-│   ├── workflows/         # Pipeline configuration
-│   └── policies/          # Execution policies
-├── .github/
-│   └── workflows/         # CI/CD workflows
-├── docusaurus.config.ts   # Docusaurus configuration
-├── sidebars.ts            # Sidebar navigation
-└── package.json           # Dependencies and scripts
-```
-
-## License
-
-MIT License - See LICENSE file for details.
-
-## Author
-
-**Arvind Bhardwaj**
-- Senior DevOps Manager/Engineer
-- 20+ years in IT
-- Certified Product Manager
-
-## Links
-
-- [Factory Framework](https://github.com/arvind3/factory)
-- [Robot Framework Book (Reference)](https://github.com/arvind3/RobotFrameworkBookWithIDE)
-- [GitHub Pages](https://arvind3.github.io/merchandising-core-concepts-for-grocery-business/)

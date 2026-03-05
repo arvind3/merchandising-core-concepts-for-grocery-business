@@ -1,310 +1,96 @@
 # Chapter 2: Product Hierarchy and Categorization
 
-## Concept Explanation
-
-**Product Hierarchy** is the structured organization of products from broad categories down to individual items (SKUs). It provides a logical framework for managing merchandise, analyzing performance, and making business decisions.
-
-**Categorization** is the process of grouping products based on shared characteristics, customer usage patterns, or business requirements.
-
-### Why Product Hierarchy Matters
+A grocery assortment becomes manageable only when the product hierarchy is rigorous. Without a clean hierarchy, teams cannot read demand correctly, compare performance consistently, or automate replenishment with confidence.
 
-A well-designed product hierarchy enables:
-- Consistent reporting and analytics
-- Efficient inventory management
-- Targeted marketing and promotions
-- Streamlined buying and replenishment
-- Clear accountability for category performance
+## 1. Concept Explanation
 
-### Standard Grocery Product Hierarchy Levels
+A practical hierarchy usually has five levels:
 
-```
-Division â†' Department â†' Category â†' Subcategory â†' Class â†' Subclass â†' SKU
-```
+1. **Department** (e.g., Grocery, Fresh, Frozen)
+2. **Category** (e.g., Breakfast Cereal)
+3. **Subcategory** (e.g., Family Cereal, Adult Wellness Cereal)
+4. **Segment/Brand Tier** (e.g., Value, Mainstream, Premium)
+5. **SKU** (specific item-size-pack)
 
-**Example Hierarchy:**
-
-| Level | Example | Description |
-|-------|---------|-------------|
-| Division | Grocery | Broadest grouping |
-| Department | Dry Grocery | Major product area |
-| Category | Cereal | Product type grouping |
-| Subcategory | Hot Cereal | More specific grouping |
-| Class | Oatmeal | Product class |
-| Subclass | Instant Oatmeal | Final classification |
-| SKU | Quaker Instant Oatmeal 12oz | Individual item |
+Category management uses this hierarchy to answer four decisions:
 
-### Planogram Basics
-
-A **planogram** is a visual diagram that shows the exact placement of products on store shelves. It ensures:
-- Consistent store execution
-- Optimized space utilization
-- Strategic product placement
-- Compliance with vendor agreements
-
-## Business Use Case
-
-**Scenario: Reorganizing the Beverage Department at ValueMart**
-
-ValueMart, a 75-store grocery chain, is reorganizing its beverage department to improve customer experience and increase sales.
-
-### Current State
-- Beverages scattered across multiple departments
-- Inconsistent categorization between stores
-- Difficult to analyze category performance
-- Planogram compliance at 65%
-
-### New Hierarchy Design
-
-**Division:** Grocery
-
-**Departments:**
-- Beverages (new consolidated department)
-
-**Categories within Beverages:**
-1. Carbonated Soft Drinks (CSD)
-2. Juices
-3. Water
-4. Sports & Energy Drinks
-5. Ready-to-Drink Tea & Coffee
-6. Milk & Dairy Beverages
-7. Beer & Wine (where legally permitted)
-
-**Subcategories (example for CSD):**
-- Cola
-- Lemon-Lime
-- Orange
-- Root Beer
-- Other Flavors
-
-### Implementation Process
-
-**Week 1-2: Planning**
-- Category Manager defines new hierarchy in MMS
-- IT updates system configurations
-- Data Analyst creates baseline reports
-
-**Week 3-4: System Updates**
-- All products recategorized in system
-- New planograms created for each store format
-- Pricing and promotion rules updated
-
-**Week 5-8: Store Execution**
-- Stores receive new shelf signage
-- Reset teams implement planograms
-- Store managers validate compliance
-
-**Week 9-12: Monitoring**
-- Sales tracked by new category structure
-- Planogram compliance audits conducted
-- Adjustments made based on performance
-
-### Results After 6 Months
-- Beverage category sales up 12%
-- Planogram compliance improved to 89%
-- Customer satisfaction scores increased 8 points
-- Inventory turnover improved 15%
-
-## Users Involved
-
-### Category Management Team
-
-**Division Vice President**
-- Owns overall division performance
-- Approves department structure changes
-- Sets strategic direction
-
-**Department Manager**
-- Manages all categories within department
-- Develops category strategies
-- Approves product additions/deletions
-
-**Category Manager**
-- Owns specific category (e.g., Beverages)
-- Creates planograms
-- Manages category P&L
-- Analyzes performance metrics
-
-**Associate Category Manager**
-- Supports Category Manager
-- Handles day-to-day category tasks
-- Manages vendor relationships
-- Coordinates promotions
-
-### Planning and Space Management
-
-**Space Planner**
-- Creates and maintains planograms
-- Optimizes shelf space allocation
-- Ensures compliance with vendor agreements
-- Uses tools like JDA Space Planning, Nielsen Spaceman
-
-**Merchandise Planner**
-- Develops assortment strategies
-- Determines store-level allocations
-- Balances breadth vs. depth of assortment
-
-### IT and Data Roles
-
-**Master Data Analyst**
-- Maintains product hierarchy in systems
-- Ensures data consistency across platforms
-- Manages item setup and attributes
-
-**Business Intelligence Developer**
-- Builds reports aligned with hierarchy
-- Creates dashboards for category performance
-- Supports ad-hoc analysis requests
-
-**Quality Engineer**
-- Tests hierarchy changes in test environments
-- Validates data integrity after migrations
-- Automates regression testing for categorization logic
-
-### Store Operations
-
-**Store Manager**
-- Ensures planogram implementation
-- Manages department resets
-- Reports execution issues
-
-**Department Manager (Grocery)**
-- Executes category changes on sales floor
-- Trains team on new layouts
-- Maintains ongoing compliance
-
-## Tools & Technologies Used
-
-### Category Management Systems
-
-**JDA (Blue Yonder) Category Management**
-- Comprehensive category planning suite
-- Planogram creation and optimization
-- Space management and analytics
-
-**Nielsen Spaceman**
-- Industry-standard planogram software
-- Shelf optimization algorithms
-- Integration with syndicated data
-
-**Apollo Space Management**
-- Cloud-based planogram solution
-- Collaborative editing capabilities
-- Mobile viewing for stores
-
-### Master Data Management
-
-**SAP Merchandise Management**
-- Product hierarchy configuration
-- Article master data management
-- Integration with ERP
-
-**Oracle Retail Merchandising**
-- Item and hierarchy management
-- Supplier integration
-- Multi-channel support
-
-**Informatica MDM**
-- Master data governance
-- Data quality management
-- Cross-system synchronization
+- Which segments need more choice versus simplification?
+- Which SKUs deserve shelf priority?
+- Which items protect price image (KVIs)?
+- Which items should be local versus chain-wide?
 
-### Analytics and Reporting
+A high-performing taxonomy also carries operational attributes: shelf life, storage temperature, hazard class, vendor lead time, pack dimensions, and substitution family.
 
-**Tableau**
-- Visual analytics for category performance
-- Interactive dashboards
-- Drill-down capabilities
+## 2. Why It Matters to the Business
 
-**Power BI**
-- Microsoft-based BI platform
-- Integration with Office suite
-- Self-service analytics
+Hierarchy quality affects both strategy and execution.
 
-**NielsenIQ / IRI**
-- Syndicated retail data
-- Market share analysis
-- Competitive benchmarking
+| Area | If hierarchy is strong | If hierarchy is weak |
+|---|---|---|
+| Performance reporting | True category trends | Misleading rollups |
+| Space planning | Rational facings | Overcrowded shelves |
+| Replenishment | Correct order logic | Stockouts and overstock |
+| Pricing strategy | Clear price ladders | Tier confusion |
+| Promotion planning | Better event targeting | Cannibalized sales |
 
-### Planogram Execution
+Most "execution problems" begin as data structure problems.
 
-**Retail Execution Management (REM)**
-- Mobile apps for store teams
-- Photo validation of planograms
-- Task management and tracking
+## 3. Example Scenario: Beverage Reset Across 200 Stores
 
-**Store Survey Apps**
-- Compliance auditing tools
-- Real-time issue reporting
-- Corrective action tracking
+A national grocery banner reset the beverage department, which had grown through incremental additions over three years.
 
-### Quality Engineering Tools
+### Starting Symptoms
 
-**API Testing**
-- Postman, REST Assured for hierarchy APIs
-- Validation of product data endpoints
+- Duplicate SKUs across similar sizes and flavors.
+- Subcategory definitions differed by region.
+- Reports showed growth in department totals but margin erosion at segment level.
 
-**Data Validation**
-- SQL queries for hierarchy integrity checks
-- Automated data quality tests
-- ETL testing for data migrations
+### Program Steps
 
-**UI Testing**
-- Selenium/Playwright for category management UIs
-- Planogram viewer testing
-- Report validation
+1. Rebuilt master hierarchy with strict naming and parent-child rules.
+2. Mapped every SKU to a single valid subcategory.
+3. Defined category roles and target space shares by store cluster.
+4. Removed low-velocity duplicates and expanded high-affinity multipack segments.
+5. Reissued planograms with minimum display standards.
 
-## Key Metrics for Categorization
+### Results (Illustrative)
 
-### Hierarchy Health Metrics
+| KPI | Pre-reset | Post-reset |
+|---|---:|---:|
+| SKU count | 1,940 | 1,730 |
+| Department sales | Baseline | +4.8% |
+| Gross margin $ | Baseline | +6.2% |
+| OSA in top 100 SKUs | 93.1% | 96.4% |
 
-| Metric | Description | Target |
-|--------|-------------|--------|
-| Category Coverage | % of SKUs properly categorized | 100% |
-| Hierarchy Depth | Average levels in hierarchy | 5-7 |
-| Orphaned SKUs | Items without proper category | 0% |
-| Planogram Compliance | % stores executing correctly | 90%+ |
+The reduction in SKU count improved shopper clarity and supply chain reliability.
 
-### Performance Metrics
+## 4. Data Interpretation
 
-| Metric | Description | Formula |
-|--------|-------------|---------|
-| Category Sales | Total sales by category | Sum of SKU sales |
-| Category Margin | Profitability by category | Sales - Cost |
-| Sales per Square Foot | Space productivity | Sales / Shelf Space |
-| Inventory Turnover | How fast inventory sells | COGS / Avg Inventory |
-| Gross Margin ROI | Return on inventory investment | Gross Margin / Avg Inventory |
+The team used a decomposition approach:
 
-## Chapter Summary
+- **Mix effect**: contribution from product tier movement.
+- **Space effect**: contribution from facing changes.
+- **Price effect**: contribution from base and promo pricing changes.
+- **Availability effect**: contribution from OSA improvement.
 
-Product hierarchy and categorization form the foundation of effective merchandising. A well-designed hierarchy enables clear accountability, accurate analytics, and efficient operations. For IT and Quality Engineering professionals, understanding hierarchy structures is critical because:
+Key finding: availability and mix improvements generated more profit than additional promotional depth.
 
-- System configurations depend on hierarchy design
-- Data migrations require hierarchy mapping
-- Reporting and analytics align to hierarchy levels
-- Integration points often use hierarchy keys
+## 5. Visual: Category Performance Comparison
 
-## Chapter Checklist
+![Category Sales and Margin by Department](/assets/graphs/category_sales_margin_comparison.png)
 
-- [ ] Can you explain the standard grocery product hierarchy levels?
-- [ ] Do you understand the purpose of planograms?
-- [ ] Can you identify key roles in category management?
-- [ ] Are you familiar with major category management systems?
-- [ ] Do you understand key metrics for measuring categorization effectiveness?
-- [ ] Can you describe how hierarchy changes impact systems and processes?
+*Figure 2.1. Balanced growth requires reading sales and margin together by category role.*
 
-## Exercise
+## 6. Practical Design Rules
 
-**Hierarchy Design Challenge:**
+- Build one enterprise hierarchy; allow local assortment variance through attributes, not taxonomy changes.
+- Set governance: no new SKU can be listed without complete classification and replenishment attributes.
+- Track hierarchy health monthly: unclassified items, duplicate nodes, invalid parent mapping.
+- Pair category reviews with shelf and inventory diagnostics, not financials alone.
 
-Your client is launching a new "Health & Wellness" initiative and wants to reorganize products across multiple departments to highlight healthy options.
+## 7. Key Takeaways
 
-1. Design a new cross-departmental "Health & Wellness" attribute structure
-2. Identify which products from existing categories would qualify
-3. Map out system changes needed to support the new structure
-4. Define test cases for validating the hierarchy changes
-
-**Deliverable:** Create a hierarchy mapping document showing current vs. proposed structure with migration approach.
-
----
-
-*End of Chapter 2*
+- Product hierarchy is an operating control, not just a reporting convenience.
+- Category strategy fails when taxonomy and master data are inconsistent.
+- SKU simplification often increases profit by reducing complexity and improving availability.
+- Category reviews should connect assortment, space, price, and replenishment in one decision cycle.
