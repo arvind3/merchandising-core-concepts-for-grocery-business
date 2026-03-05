@@ -79,7 +79,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Arvind Bhardwaj. Built with Docusaurus.`,
+      copyright: `Copyright (c) ${new Date().getFullYear()} Arvind Bhardwaj. Built with Docusaurus.`,
     },
     prism: {
       theme: require('prism-react-renderer').themes.github,
