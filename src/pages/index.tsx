@@ -69,22 +69,37 @@ const chapterCards = [
   },
 ];
 
+const readingPaths = [
+  {
+    title: 'Merchandising Foundations',
+    detail: 'Start with Chapters 1-4 to understand category structure, pricing, and inventory economics.',
+  },
+  {
+    title: 'Execution and Operations',
+    detail: 'Use Chapters 5-7 for supplier governance, in-store execution, and analytics decision loops.',
+  },
+  {
+    title: 'Systems and Transformation',
+    detail: 'Finish with Chapters 8-10 for platform design, quality engineering, and transformation strategy.',
+  },
+];
+
 function HeroSection() {
   return (
     <header className={styles.hero}>
       <div className="container">
-        <p className={styles.eyebrow}>Industry Reference Book</p>
+        <p className={styles.eyebrow}>Professional Grocery Merchandising Reference</p>
         <h1 className={styles.heroTitle}>Merchandising Core Concepts for Grocery Business</h1>
         <p className={styles.heroSubtitle}>
-          A practical guide to category management, pricing, inventory, supplier collaboration,
-          store execution, analytics, and merchandising systems.
+          A modern field guide to assortment, pricing, inventory, supplier collaboration,
+          store execution, analytics, and merchandising technology.
         </p>
         <div className={styles.heroActions}>
           <Link className={clsx('button button--primary button--lg', styles.primaryAction)} to={chapterCards[0].path}>
-            Start with Chapter 1
+            Begin Reading
           </Link>
-          <Link className={clsx('button button--secondary button--lg', styles.secondaryAction)} to="/resources/references">
-            View References
+          <Link className={clsx('button button--secondary button--lg', styles.secondaryAction)} to="/resources/glossary">
+            Open Glossary
           </Link>
         </div>
       </div>
@@ -92,27 +107,33 @@ function HeroSection() {
   );
 }
 
-function StatsBand() {
+function MetricsBand() {
   return (
-    <section className={styles.statsBand}>
+    <section className={styles.metricsBand}>
       <div className="container">
-        <div className={styles.statsGrid}>
-          <div>
-            <div className={styles.statValue}>10</div>
-            <div className={styles.statLabel}>Chapters</div>
-          </div>
-          <div>
-            <div className={styles.statValue}>9</div>
-            <div className={styles.statLabel}>Visuals</div>
-          </div>
-          <div>
-            <div className={styles.statValue}>7</div>
-            <div className={styles.statLabel}>Agent Pipeline Stages</div>
-          </div>
-          <div>
-            <div className={styles.statValue}>1</div>
-            <div className={styles.statLabel}>Unified Retail Operating Narrative</div>
-          </div>
+        <div className={styles.metricsGrid}>
+          <div className={styles.metricCard}><strong>10</strong><span>Chapters</span></div>
+          <div className={styles.metricCard}><strong>9</strong><span>Charts and Diagrams</span></div>
+          <div className={styles.metricCard}><strong>7</strong><span>Editorial Pipeline Stages</span></div>
+          <div className={styles.metricCard}><strong>1</strong><span>Integrated Operating Narrative</span></div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ReadingPaths() {
+  return (
+    <section className={styles.section}>
+      <div className="container">
+        <h2 className={styles.sectionTitle}>Recommended Reading Paths</h2>
+        <div className={styles.pathGrid}>
+          {readingPaths.map((path) => (
+            <div key={path.title} className={styles.pathCard}>
+              <h3>{path.title}</h3>
+              <p>{path.detail}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -121,17 +142,18 @@ function StatsBand() {
 
 function ChaptersSection() {
   return (
-    <section className={styles.section}>
+    <section className={clsx(styles.section, styles.chapterSection)}>
       <div className="container">
         <h2 className={styles.sectionTitle}>Table of Contents</h2>
         <p className={styles.sectionSubtitle}>
-          Each chapter includes concept explanation, business importance, scenario, data interpretation, and key takeaways.
+          Every chapter includes core concept framing, business impact, real-world scenarios,
+          interpretation guidance, and action-ready takeaways.
         </p>
         <div className="row">
           {chapterCards.map((chapter) => (
             <div key={chapter.id} className="col col--6">
               <Link className={styles.chapterCard} to={chapter.path}>
-                <div className={styles.chapterNumber}>Chapter {chapter.id}</div>
+                <span className={styles.chapterNumber}>Chapter {chapter.id}</span>
                 <h3>{chapter.title}</h3>
                 <p>{chapter.summary}</p>
               </Link>
@@ -145,7 +167,7 @@ function ChaptersSection() {
 
 function ResourcesSection() {
   return (
-    <section className={clsx(styles.section, styles.resources)}>
+    <section className={styles.section}>
       <div className="container">
         <h2 className={styles.sectionTitle}>Resources</h2>
         <div className={styles.resourceLinks}>
@@ -161,11 +183,13 @@ function ResourcesSection() {
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+
   return (
-    <Layout title={siteConfig.title} description="Professional reference book for grocery merchandising.">
+    <Layout title={siteConfig.title} description="A premium-quality online book on grocery merchandising.">
       <HeroSection />
       <main>
-        <StatsBand />
+        <MetricsBand />
+        <ReadingPaths />
         <ChaptersSection />
         <ResourcesSection />
       </main>

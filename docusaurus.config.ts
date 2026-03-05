@@ -14,7 +14,11 @@ const config: Config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -30,6 +34,8 @@ const config: Config = {
           editUrl:
             'https://github.com/arvind3/merchandising-core-concepts-for-grocery-business/tree/main/',
           routeBasePath: '/',
+          sidebarCollapsible: true,
+          breadcrumbs: true,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -39,8 +45,13 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'Merchandising Core Concepts',
+      hideOnScroll: true,
       logo: {
         alt: 'Book Logo',
         src: 'img/logo.svg',
@@ -53,11 +64,20 @@ const config: Config = {
           label: 'Book',
         },
         {
+          to: '/resources/references',
+          label: 'References',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/arvind3/merchandising-core-concepts-for-grocery-business',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 3,
     },
     footer: {
       style: 'dark',
